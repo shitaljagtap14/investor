@@ -1,0 +1,4644 @@
+a, a:active, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+input[type=checkbox], input[type=radio], li, td, th, ul {
+    padding: 0;
+}
+.alCtr, .btn {
+    text-align: center;
+}
+.helpIcon, .vMid {
+    vertical-align: middle;
+}
+.form .agree .chkbox input, .privateLgMain .chkBoxRow .chkbox input {
+    visibility: hidden;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%}
+body {
+    color: #264462;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+fieldset, img {
+    border: none;
+}
+a {
+    background: 0 0;
+    color: #06d;
+}
+li, ul {
+    list-style: none;
+    margin: 0;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    overflow: visible;
+}
+button[disabled], html input[disabled] {
+    cursor: no-drop;
+    background: #f0f0f0;
+}
+.btn, .point {
+    cursor: pointer;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+textarea {
+    overflow: none;
+    resize: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clearFix:after, .clearFix:before {
+    content: "";
+    display: table;
+}
+.clearFix:after {
+    clear: both;
+}
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left {
+    float: left!important;
+}
+.right {
+    float: right!important;
+}
+.flNone {
+    float: none!important;
+}
+.cl100, .inLabel, .leftLabel {
+    float: left!important;
+}
+.strong {
+    font-weight: 700!important;
+}
+.normal {
+    font-weight: 400!important;
+}
+.upper {
+    text-transform: uppercase!important;
+}
+.lower {
+    text-transform: lowercase!important;
+}
+.caps {
+    text-transform: capitalize!important;
+}
+.clear {
+    clear: both;
+}
+.cl100 {
+    clear: both;
+    width: 100%}
+.alRgt {
+    text-align: right;
+}
+.alLft {
+    text-align: left;
+}
+.alJst {
+    text-align: justify;
+}
+.white {
+    color: #fff;
+}
+.red {
+    color: #c61d23;
+}
+.gray {
+    color: #878787;
+}
+.green {
+    color: #03a003;
+}
+.blue {
+    color: #264462;
+}
+.ft10 {
+    font-size: 10px;
+}
+.ft11 {
+    font-size: 11px;
+}
+.ft12 {
+    font-size: 12px;
+}
+.btn, .ft13 {
+    font-size: 13px;
+}
+.ft14 {
+    font-size: 14px;
+}
+.ft15 {
+    font-size: 15px;
+}
+.ft16 {
+    font-size: 16px;
+}
+.ft18 {
+    font-size: 18px;
+}
+.ft20 {
+    font-size: 20px;
+}
+.ft22 {
+    font-size: 22px;
+}
+.ft24 {
+    font-size: 24px;
+}
+.ft30 {
+    font-size: 30px;
+}
+.pdTop5 {
+    padding-top: 5px;
+}
+.pdTop10 {
+    padding-top: 10px;
+}
+.pdTop15 {
+    padding-top: 15px;
+}
+.pdTop20 {
+    padding-top: 20px;
+}
+.pdBtm5 {
+    padding-bottom: 5px;
+}
+.pdBtm10 {
+    padding-bottom: 10px;
+}
+.pdBtm15 {
+    padding-bottom: 15px;
+}
+.pdBtm30 {
+    padding-bottom: 30px;
+}
+.pdTB5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pdTB10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ctRow, .pdTB15 {
+    padding-top: 15px;
+}
+.pdTB15 {
+    padding-bottom: 15px;
+}
+.pdLft10 {
+    padding-left: 10px;
+}
+.pdLft20 {
+    padding-left: 20px;
+}
+.pdLR5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pdLR10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pdLR15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mrTop5 {
+    margin-top: 5px;
+}
+.mrTop10 {
+    margin-top: 10px;
+}
+.mrTop15 {
+    margin-top: 15px;
+}
+.mrTop20 {
+    margin-top: 20px;
+}
+.mrTop30 {
+    margin-top: 30px;
+}
+.mrBtm5 {
+    margin-bottom: 5px;
+}
+.mrBtm10 {
+    margin-bottom: 10px;
+}
+.mrBtm15 {
+    margin-bottom: 15px;
+}
+.mrLft10 {
+    margin-left: 10px;
+}
+.mrLft15 {
+    margin-left: 15px;
+}
+.mrLft20 {
+    margin-left: 20px;
+}
+.mrRgt10 {
+    margin-right: 10px;
+}
+.wd50 {
+    width: 50px!important;
+}
+.wd90 {
+    width: 90px;
+}
+.wd110 {
+    width: 110px;
+}
+.wd160 {
+    width: 160px!important;
+}
+.wd175 {
+    width: 175px;
+}
+.wd230 {
+    width: 230px!important;
+}
+.wd250 {
+    width: 250px!important;
+}
+.wd288 {
+    width: 288px;
+}
+.wd300 {
+    width: 300px;
+}
+.wd340 {
+    width: 340px!important;
+}
+.wd360 {
+    width: 360px!important;
+}
+.wd400 {
+    width: 400px!important;
+}
+.wd420 {
+    width: 420px!important;
+}
+.wd450 {
+    width: 450px;
+}
+.lh18 {
+    line-height: 18px;
+}
+.lh20 {
+    line-height: 20px;
+}
+.wdFl {
+    width: 100%!important;
+}
+.brNone {
+    border: none!important;
+}
+.dispNone {
+    display: none!important;
+}
+.none {
+    display: none;
+}
+.blk {
+    display: block;
+}
+.inl {
+    display: inline;
+}
+.btn, .iblk {
+    display: inline-block;
+}
+.tbl {
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+}
+.ctRow:after, .ctRow:before, .inRow:after, .inRow:before {
+    content: "";
+    display: table;
+}
+.fxd {
+    position: fixed;
+}
+.stc {
+    position: static;
+}
+.abs, .toolTip {
+    position: absolute;
+}
+.inLabel, .rel {
+    position: relative;
+}
+.hid {
+    overflow: hidden;
+}
+.auto {
+    overflow: auto;
+}
+.btn, .visi {
+    overflow: visible;
+}
+.scroll {
+    overflow: scroll;
+}
+.cuDef {
+    cursor: default!important;
+}
+.noHand {
+    cursor: not-allowed!important;
+}
+.colorBoxOpen .scrollpane, .colorBoxOpen .winnerScroll {
+    overflow: hidden!important;
+}
+#mainWrapper {
+    margin: 0 auto;
+    min-width: 1024px;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    clear: both;
+}
+.ctRow:after {
+    clear: both;
+}
+.inRow {
+    padding-top: 20px;
+}
+.inRow:after {
+    clear: both;
+}
+.inLabel {
+    margin-right: -4px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px 0 0 5px;
+    background: #fff;
+    z-index: 2;
+    padding: 0 10px;
+}
+.leftLabel {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.bigFtBtn {
+    height: 30px!important;
+    line-height: 30px!important;
+    font-size: 16px!important;
+}
+.btn {
+    text-decoration: none!important;
+    border-radius: 3px;
+    line-height: 18px;
+    padding: 4px 8px;
+    height: 18px;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.darkBlueBtn, .redBtn {
+    cursor: pointer;
+    text-decoration: none!important;
+    overflow: visible;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 4px 8px;
+    height: 18px;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    color: #fff;
+    font-weight: 700;
+}
+.redBtn {
+    box-sizing: inherit;
+    background: #c61d23;
+    border: 1px solid #9a161b;
+}
+.redBtn:hover {
+    background: #df232a;
+    color: #fff;
+}
+.darkBlueBtn {
+    box-sizing: inherit;
+    background: #264462;
+    border: 1px solid #182a3d;
+}
+.darkerBlueBtn, .lightBlueBtn {
+    border-radius: 3px;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    cursor: pointer;
+    text-decoration: none!important;
+    overflow: visible;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    height: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.darkBlueBtn:hover {
+    background: #2f5378;
+    color: #fff;
+}
+.darkerBlueBtn {
+    box-sizing: inherit;
+    background: #3759a5;
+    padding: 5px 9px;
+    border: none;
+}
+.darkerBlueBtn:hover {
+    background: #2f5378;
+    color: #fff;
+}
+.lightBlueBtn {
+    padding: 4px 8px;
+    box-sizing: inherit;
+    background: #4bc5c3;
+    border: 1px solid #36a7a5;
+}
+.darkYellowBtn, .grayBtn {
+    border-radius: 3px;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
+.lightBlueBtn:hover {
+    background: #62cccb;
+    color: #fff;
+}
+.lightBlueBtn .arrDown {
+    border-top: 8px solid #fff;
+}
+.darkYellowBtn {
+    cursor: pointer;
+    text-decoration: none!important;
+    overflow: visible;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    height: 18px;
+    box-sizing: inherit;
+    color: #fff;
+    background: #3759a5;
+    font-weight: 700;
+    padding: 5px 9px;
+    border: none;
+}
+.grayBtn, .greenBtn {
+    cursor: pointer;
+    text-decoration: none!important;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    padding: 4px 8px;
+    height: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    overflow: visible;
+}
+.darkYellowBtn:hover {
+    background: #2f5378;
+    color: #fff;
+}
+.grayBtn {
+    box-sizing: inherit;
+    color: #264462;
+    background: #9b9b9b;
+    border: 1px solid #cacaca;
+}
+.grayBtn:hover {
+    background: #a0a0a0;
+    color: #fff;
+}
+.greenBtn {
+    border-radius: 3px;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    color: #fff;
+    background: #139f34;
+    border: 1px solid #0e7125;
+}
+.greenBtn:hover {
+    background: #16ba3d;
+    color: #fff;
+}
+.disableBtn {
+    cursor: default!important;
+    background: #ccc!important;
+    color: #9f9f9f!important;
+    border: 1px solid #bebebe!important;
+}
+.disableBtn:hover {
+    color: #fff;
+}
+.toolTip {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 20px;
+    -webkit-box-shadow: 0 0 5px #777;
+    -moz-box-shadow: 0 0 5px #777;
+    box-shadow: 0 0 5px #777;
+    display: none;
+}
+.inputStyle, .txtField>input {
+    border: 1px solid #d7d7d7;
+    font-size: 14px;
+}
+.toolTip .btmSmArrow, .toolTip .topSmArrow {
+    width: 24px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+}
+.toolTip .topSmArrow {
+    background: url(https://cdn1.dream11.com/images/v2/tooltip-arrow.png?ver=9.72) left top no-repeat;
+    top: -23px;
+    left: 20px;
+}
+.toolTip .btmSmArrow {
+    background: url(https://cdn1.dream11.com/images/v2/tooltip-arrow.png?ver=9.72) left -28px no-repeat;
+    bottom: -23px;
+    left: 50%;
+    margin-left: -12px;
+}
+.txtField, .txtField>input {
+    float: left!important;
+    position: relative;
+}
+.toolTip .lgOption {
+    margin: 0 5px 0 0;
+}
+.inputStyle {
+    float: left!important;
+    border-radius: 5px;
+    line-height: 18px;
+}
+.txtField>input {
+    border-radius: 5px;
+    line-height: 18px;
+    padding: 7px 8px;
+    width: 83%;
+    height: 19px;
+}
+.txtField>select, .txtField>textarea {
+    float: left!important;
+    border: 1px solid #d7d7d7;
+    line-height: 18px;
+}
+.txtField>select {
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px 4px;
+    width: 100%;
+    height: 35px;
+}
+.txtField>.placeholder {
+    color: #878787;
+    cursor: text;
+    float: left!important;
+    font-size: 11px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    background: #fff;
+    padding: 0 5px;
+    z-index: 5;
+}
+.txtField>.placeholder.sel {
+    top: -6px;
+    left: 8px;
+}
+.txtField>textarea {
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px 8px;
+    width: 83%}
+.txtField>.passwordTip {
+    border: 1px solid #d7d7d7;
+    background: #d2e9ed;
+    border-radius: 5px;
+    display: none;
+    float: left;
+    left: -95%;
+    margin: 0;
+    padding: 3%;
+    position: absolute;
+    top: -45%;
+    width: 87%}
+label.error {
+    clear: both;
+    display: block;
+    text-align: left!important;
+    background: url(https://cdn1.dream11.com/images/v2/error-msg.png?ver=9.72) left 5px no-repeat;
+    color: #c61d23;
+    font-size: 12px;
+    padding: 4px 0 0 15px;
+}
+.helpIcon, .infoMsgIcon {
+    display: inline-block;
+    font-weight: 400!important;
+}
+.flagsBox, .flagsBox .mtType, .form .loginTxt, .infoMsgIcon, .popupTitle, .signUpText {
+    text-align: center;
+}
+input.error, select.error, textarea.error {
+    border: 1px solid #c61d23!important;
+}
+.helpIcon {
+    border-radius: 50%;
+    border: 1px solid #264462;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+}
+.infoMsgIcon {
+    border-radius: 50%;
+    border: 1px solid #264462;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    font-style: normal;
+}
+.flagsBox {
+    float: left;
+    font-size: .8em;
+    margin: 0 8px;
+    position: relative;
+}
+.flagsBox:after {
+    border-left: 1px solid #999;
+    content: '';
+    float: left;
+    height: 30px;
+    left: -8px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+.flagsBox:first-child:after {
+    display: none;
+}
+.flagsBox .match, .flagsBox .spacer {
+    display: inline-block;
+}
+.flagsBox .match .team {
+    float: left;
+}
+.flagsBox .match .team span:last-child {
+    background: 0 0;
+    float: left;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    text-indent: inherit;
+    width: auto;
+}
+.flagsBox .vs {
+    float: left;
+    padding: 0 7px;
+}
+.flagsBox .mtType {
+    color: #505050;
+    line-height: 1;
+    margin: 4px 0 0;
+    padding: 0;
+}
+.flagsBox .spacer {
+    border-left: 1px solid #999;
+    vertical-align: top;
+    height: 30px;
+    margin: 0 13px;
+    width: 1px;
+}
+.popupTitle {
+    background: #264462;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-weight: 400;
+}
+.popupInner {
+    padding: 20px 25px;
+}
+.popupInner:after, .popupInner:before {
+    content: "";
+    display: table;
+}
+.popupInner:after {
+    clear: both;
+}
+.wd470 {
+    width: 470px;
+}
+.form {
+    background: #fff;
+    float: left;
+    padding: 0 33px;
+    width: 424px;
+}
+.form .loginTxt {
+    float: left;
+    color: #264462;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin: 10px 0;
+}
+.form .socialLoginButtons {
+    float: left;
+    font-weight: 400;
+    padding: 0 52px;
+    font-size: 14px;
+}
+.form .socialLoginButtons a {
+    margin: 0 12px;
+}
+.form .socialLoginButtons span.lndLogin {
+    float: left;
+    margin: 7px 0;
+}
+.form .socialLoginButtons span.lndLogin a {
+    color: #c61d23;
+    margin: 0;
+}
+.form .GLoginBut, .form .fbLoginBut {
+    color: #fff;
+    padding: 10px 20px 9px 57px;
+    float: left;
+}
+.form .fbLoginBut {
+    background: url(https://cdn1.dream11.com/images/v2/icoFb.gif?ver=9.72) no-repeat #30497c;
+}
+.form .GLoginBut {
+    background: url(https://cdn1.dream11.com/images/v2/icoGoogleplus.gif?ver=9.72) no-repeat #bf4233;
+}
+.form .or {
+    border-bottom: 1px solid #b2b2b2;
+    float: left;
+    width: 293px;
+    margin: 17px 66px 5px;
+    height: 1px;
+    position: relative;
+}
+.form .or>span {
+    color: #264462;
+    font-size: 15px;
+    font-weight: 400;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: -13px 0 0 -26px;
+    padding: 5px 20px;
+}
+.form .txtField {
+    float: left;
+    margin: 15px 0 5px;
+    width: 100%}
+.txtField .placeholder {
+    top: -6px;
+}
+.txtField>.passwordTip.mail {
+    top: 0;
+}
+.form .txtField.dob {
+    margin: 15px 18px 5px 0;
+    width: 129px;
+}
+.form .txtField.dob.last {
+    margin: 15px 0 5px;
+}
+.form .txtField.country {
+    margin: 15px 18px 5px 0;
+    width: 94%}
+.form .txtField>input {
+    float: left;
+    width: 96%}
+.form .fgtPassword {
+    float: left;
+    margin: 0 0 15px;
+}
+.form .recaptcha {
+    float: left;
+    margin: 10px 0;
+}
+.form .recaptcha>img {
+    float: left;
+}
+.form .lightBlueBtn, .form .redBtn {
+    float: left;
+    font-size: 20px;
+    font-weight: 400!important;
+    margin: 0 0 20px;
+    padding: 12px 0;
+    width: 100%}
+.signUpText {
+    border-top: 1px solid #b2b2b2;
+    background: #e5e5e5;
+    float: right;
+    font-size: 16px;
+    padding: 17px 0;
+    width: 490px;
+}
+.signUpText a {
+    color: #06d;
+}
+.form .frmSignUp .recaptcha {
+    display: block;
+}
+.form .agree {
+    margin: 0 0 10px;
+    float: left;
+    width: 100%}
+.form .agree .chkbox {
+    background: url(https://cdn1.dream11.com/images/v2/icoChkBox.png?ver=9.72) 0 100% no-repeat;
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+.form .agree .chkbox.sel {
+    background-position: 0 0;
+}
+.form .agree span {
+    float: left;
+    margin: 4px 0 0;
+}
+.socialLoginButtons {
+    float: left;
+    font-weight: 400;
+    padding: 0 52px;
+    font-size: 14px;
+}
+.GLoginBut, .fbLoginBut {
+    color: #fff;
+    padding: 10px 20px 9px 57px;
+    float: left;
+}
+.socialLoginButtons a {
+    margin: 0 12px;
+}
+.fbLoginBut {
+    background: url(https://cdn1.dream11.com/images/v2/icoFb.gif?ver=9.72) no-repeat #30497c;
+}
+.GLoginBut {
+    background: url(https://cdn1.dream11.com/images/v2/icoGoogleplus.gif?ver=9.72) no-repeat #bf4233;
+}
+.popupInner.wd470 {
+    padding: 0;
+}
+.popupInner.wd470 .form {
+    padding: 23px;
+}
+.popupInner.wd470 .lightBlueBtn {
+    margin: 0;
+}
+.popupInner .signUpText {
+    width: 100%}
+.popupInner .txtField>.passwordTip {
+    top: -82px;
+    left: 0;
+    width: 94%;
+    z-index: 5;
+}
+.popupInner .txtField>.passwordTip.mail {
+    top: -51px;
+    left: 0;
+    width: 94%}
+.popupInner .txtField>.addAmountVal {
+    width: 91%!important;
+}
+.popupInner .inviteFrLink {
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%}
+.popupInner .inviteFrLink a {
+    color: #06d;
+}
+ul.mailtip {
+    float: none;
+    background-color: #fcfeff;
+    list-style: none;
+    border: 1px solid #97bccc;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    border-top: none;
+    width: 416px!important;
+}
+ul.mailtip li p {
+    text-align: left;
+    line-height: 30px;
+    cursor: pointer;
+    margin: 0 9px;
+    overflow: hidden;
+    word-wrap: break-word;
+    height: 30px;
+}
+#cboxTitle, .fxForumLink, .loadMore {
+    text-align: center;
+}
+ul.mailtip li:last-child {
+    border-radius: 0 0 10px 10px;
+}
+ul.mailtip li.active {
+    background: #eaeaea;
+}
+ul.mailtip li.hover {
+    background: #e7f6ff;
+}
+.topBar .darkYellowBtn {
+    margin: 8px 0;
+}
+.topBar {
+    background: #000;
+    color: #fff;
+    float: left;
+    line-height: 22px;
+    margin: 0 0 10px;
+    padding: 3px 0;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+.topBar .message {
+    float: left;
+    margin: 3px 0;
+    width: 100%}
+.topBar .message:before {
+    background: url(https://cdn1.dream11.com/images/v2/ico-white-star.png?ver=9.72) no-repeat;
+    content: '';
+    float: left;
+    height: 12px;
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 4px;
+    width: 12px;
+}
+.topBar .message a {
+    color: #fff;
+    text-decoration: none;
+}
+.topBar .message .morecontent span {
+    display: none;
+    margin: 0 0 10px;
+}
+.topBar .message .morelink {
+    color: #fff;
+    border-radius: 5px;
+    background-color: #c61d23;
+    margin: 0 0 0 5px;
+    padding: 1px 8px 3px;
+}
+.topBar .message .morelink.less {
+    margin: 10px 0 0 10px;
+}
+.staticTbl {
+    display: table;
+}
+.staticTbl .stTblRow {
+    display: table-row;
+}
+.staticTbl .stTblCell {
+    display: table-cell;
+    padding-bottom: 10px;
+}
+img[src*=pixels] {
+    float: left;
+    position: fixed;
+    top: -999px;
+    left: 0;
+}
+.titleDiv {
+    clear: both;
+    float: left!important;
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 5px;
+    margin: 15px 0;
+}
+.titleDiv .lftTxt {
+    float: left!important;
+    font-size: 18px;
+    font-weight: 700!important;
+}
+.titleDiv .rgtText {
+    float: right!important;
+    padding-top: 5px;
+}
+.titleDiv .rgtText a {
+    display: inline-block;
+    padding: 0 5px;
+}
+.titleDiv .rgtText span {
+    display: inline-block;
+    color: #d7d7d7;
+}
+.fxForumLink {
+    height: 34px;
+    line-height: 32px;
+    background: #c61d23;
+    color: #fff;
+    padding: 0 15px;
+    display: inline-block;
+    position: fixed;
+    z-index: 500;
+    bottom: 0;
+    right: 0;
+}
+.fxForumLink .frmIcon {
+    background: url(https://cdn1.dream11.com/images/common-sprite.png?ver=9.72) left -173px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.fxForumLink:hover {
+    text-decoration: none;
+    background: #df232a;
+    color: #fff!important;
+}
+.fxAppButton, .fxHelpDeskButton {
+    border-radius: 0 0 4px 4px;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1), 0 -1px 0 rgba(0, 0, 0, .08) inset, 0 -2px 0 rgba(255, 255, 255, .7) inset, 0 9px 29px rgba(0, 0, 0, .1) inset;
+    font-weight: 700;
+}
+.fxAppButton {
+    background: #c61d23;
+    padding: 8px 21px;
+    top: 285px;
+    left: -3px;
+    -webkit-transform-origin: 0 50%;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -o-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transform: rotate(-90deg) translate(-50%, 50%);
+    -moz-transform: rotate(-90deg) translate(-50%, 50%);
+    -ms-transform: rotate(-90deg) translate(-50%, 50%);
+    -o-transform: rotate(-90deg) translate(-50%, 50%);
+    transform: rotate(-90deg) translate(-50%, 50%);
+}
+.fxAppButton:hover {
+    text-decoration: none;
+    left: 0;
+}
+.fxHelpDeskButton {
+    background: #3759a5;
+    padding: 8px 18px;
+    top: 165px;
+    left: -3px;
+    -webkit-transform-origin: 0 50%;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -o-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transform: rotate(-90deg) translate(-50%, 50%);
+    -moz-transform: rotate(-90deg) translate(-50%, 50%);
+    -ms-transform: rotate(-90deg) translate(-50%, 50%);
+    -o-transform: rotate(-90deg) translate(-50%, 50%);
+    transform: rotate(-90deg) translate(-50%, 50%);
+}
+.fxHelpDeskButton:hover {
+    text-decoration: none;
+    left: 0;
+}
+.email-preferences-field {
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 10px 5px 10px 10px;
+    text-align: right;
+}
+.email-preferences-list {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 260px;
+    display: inline-block;
+    float: left;
+    color: #5c5c5c;
+    text-align: left;
+}
+.email-preferences-link {
+    margin: 0 10px 0 0;
+    font-size: 11px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: 1px;
+}
+.mobile-field {
+    display: block;
+    line-height: 18px;
+    font-size: 11px;
+    padding: 8px;
+    border: 1px solid #d7d7d7;
+    box-sizing: border-box;
+    background: #fff;
+    vertical-align: middle;
+    color: #3759a5;
+    font-weight: 700;
+    border-radius: 4px;
+    width: 100%;
+    float: left;
+}
+#cboxCurrent, #cboxTitle {
+    bottom: 4px;
+    color: #949494;
+    position: absolute;
+}
+#cboxOverlay, #cboxWrapper, #colorbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#cboxOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(https://cdn1.dream11.com/images/v2/overlay.png?ver=9.72);
+}
+#cboxBottomLeft, #cboxMiddleLeft {
+    clear: both;
+}
+#cboxContent {
+    position: relative;
+}
+#cboxLoadedContent {
+    -webkit-overflow-scrolling: touch;
+    overflow: visible!important;
+}
+#cboxTitle {
+    margin: 0;
+    left: 0;
+    width: 100%}
+#cboxLoadingGraphic, #cboxLoadingOverlay {
+    display: none!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cboxIframe, .cboxPhoto {
+    display: block;
+    border: none!important;
+}
+.cboxPhoto {
+    float: left!important;
+    margin: auto;
+    max-width: none;
+}
+.cboxIframe {
+    width: 100%;
+    height: 100%}
+#cboxContent, #cboxLoadedContent, #colorbox {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+#colorbox {
+    outline: 0;
+}
+#cboxContent, .cboxIframe {
+    background: #fff;
+}
+#cboxError {
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+#cboxCurrent {
+    left: 58px;
+}
+#cboxClose, #cboxNext, #cboxPrevious, #cboxSlideshow {
+    cursor: pointer;
+    border: none!important;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    width: auto;
+    background: 0 0;
+}
+#cboxClose:active, #cboxNext:active, #cboxPrevious:active, #cboxSlideshow:active {
+    outline: 0;
+}
+#cboxClose {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background: url(https://cdn1.dream11.com/images/v2/close@2x.png?ver=9.72) center no-repeat;
+    width: 17px;
+    height: 17px;
+    text-indent: -9999px;
+    background-size: contain;
+}
+header .headRgtLink {
+    float: right!important;
+    margin-top: 15px;
+}
+header .headRgtLink a {
+    display: inline-block;
+    margin-left: 10px;
+}
+header {
+    float: left;
+    width: 100%}
+header .topBar {
+    background: #000;
+    color: #fff;
+    float: left;
+    padding: 3px 0;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+header .topBar .message {
+    float: left;
+    margin: 3px 0;
+    width: 50%}
+header .topBar .message:before {
+    background: url(https://cdn1.dream11.com/images/v2/ico-white-star.png?ver=9.72) no-repeat;
+    content: '';
+    float: left;
+    height: 12px;
+    margin: 0 5px 0 0;
+    width: 12px;
+}
+header .topBar .message a {
+    color: #fff;
+    text-decoration: none;
+}
+header .topBar .message .morecontent span {
+    display: none;
+    margin: 0 0 10px;
+}
+header .topBar .message .morelink {
+    color: #fff;
+    border-radius: 5px;
+    background-color: #c61d23;
+    margin: 0 0 0 5px;
+    padding: 1px 8px 3px;
+}
+header .topBar .message .morelink.less {
+    margin: 10px 0 0;
+}
+header .topBar .mainNav {
+    float: right;
+}
+header .topBar .mainNav>li {
+    border-left: 1px solid #fff;
+    float: left;
+    position: relative;
+}
+header .topBar .mainNav>li:first-child {
+    border: none;
+}
+header .topBar .mainNav>li>a {
+    color: #fff;
+    float: left;
+    padding: 3px 10px;
+}
+header .topBar .mainNav>li>a>span.btmArrow {
+    border: 5px solid #fff;
+    border-width: 8px 5px 0;
+    border-color: #fff transparent transparent;
+    float: right;
+    height: 0;
+    margin: 7px 0 0 5px;
+    width: 0;
+}
+header .topBar .mainNav>li>a>span.btmArrow.sel {
+    border: 5px solid #fff;
+    border-width: 0 5px 8px;
+    border-color: transparent transparent #fff;
+    float: right;
+    height: 0;
+    margin: 7px 0 0 5px;
+    width: 0;
+}
+header .topBar .mainNav>li>a.ReferLink {
+    background: url(https://cdn1.dream11.com/images/v2/ico-refer-friend.png?ver=9.72) 0 center no-repeat;
+    padding: 3px 10px 3px 32px;
+    margin-left: 10px;
+}
+header .topBar .mainNav .topSubMenu {
+    background: #000;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    float: right;
+    position: absolute;
+    top: 31px;
+    right: 0;
+    width: 160px;
+    z-index: 1;
+}
+header .topBar .mainNav .topSubMenu a {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    float: left;
+    padding: 5px 5%;
+    width: 90%}
+header .logo {
+    float: left;
+    margin: 20px 0 15px;
+    position: relative;
+    z-index: 3;
+}
+header .logo>img {
+    width: 75%}
+header .head>ul {
+    float: right;
+    margin: 15px 0 0;
+    position: relative;
+    z-index: 3;
+}
+header .head>ul>li {
+    float: left;
+}
+header .head>ul>li a {
+    font-size: 1.2em;
+}
+header .head>ul>li a.wallet {
+    background: url(https://cdn1.dream11.com/images/v2/ico-wallet.gif?ver=9.72) 0 center no-repeat;
+    color: #c61d23;
+    float: left;
+    font-size: .9em;
+    padding: 10px 0 3px 30px;
+}
+header .head>ul>li a.addCashLink {
+    border: 1px solid #c61d23;
+    color: #c61d23;
+    float: left;
+    overflow: hidden;
+    line-height: .8;
+    font-size: 1.6em;
+    margin: 7px 10px 0;
+    padding: 0 2px 1px;
+}
+header .head>ul>li a:hover.addCashLink {
+    text-decoration: none;
+}
+header .head .switchLink {
+    padding: 10px 15px 3px 0;
+    font-size: 13px;
+    display: inline-block;
+}
+header .topBar .mainNav>li.notificationLink a {
+    text-decoration: none;
+}
+header .topBar .mainNav>li.notificationLink a:hover {
+    background-color: #444;
+}
+header .topBar .mainNav>li.notificationLink span.icon img {
+    display: inline-block;
+    padding: 0 1px 0 0;
+    margin: 0;
+    vertical-align: -4px;
+}
+header .topBar .mainNav>li.notificationLink span.numbDesktop {
+    display: inline-block;
+    padding: 0 3px;
+    background: #f5af23;
+    color: #fff;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 2px;
+    vertical-align: 1px;
+}
+.notificationPanel {
+    width: 400px;
+    background: #fff;
+    z-index: 99;
+    float: right;
+    position: fixed;
+    top: 34px;
+    right: -405px;
+    box-shadow: -2px 0 6px 0 rgba(0, 0, 0, .5);
+    transition: .5s ease;
+}
+.notificationPanel.active {
+    overflow: scroll;
+    right: 0;
+}
+.notificationPanel .notificationSection {
+    width: 100%;
+    float: left;
+    display: none;
+}
+.notificationPanel .notificationSection .title {
+    color: #7b7a7a;
+    font-weight: 700;
+    font-size: .833em;
+    padding: 9px 11px;
+    background-color: #eee;
+}
+.notificationPanel .notificationSection ul.notifications li a, .notificationPanel .notificationSection ul.notifications li.noNotifications {
+    padding: 13px 11px;
+    display: block;
+}
+.notificationPanel .notificationSection .title span {
+    float: right;
+    font-weight: 700;
+}
+.notificationPanel .notificationSection .title span a {
+    color: #7b7a7a;
+    text-decoration: none;
+}
+.notificationPanel .notificationSection ul.notifications li {
+    border-bottom: 1px solid #e8e8e8;
+}
+.notificationPanel .notificationSection ul.notifications li.noNotifications .row .noNotify {
+    background: url(https://cdn1.dream11.com/images/v2/no-notification.png?ver=9.72);
+    background-size: 24px 24px;
+}
+.notificationPanel .notificationSection ul.notifications li a:hover {
+    background-color: #f6f6f6;
+    text-decoration: none;
+}
+.notificationPanel .notificationSection ul.notifications li .row {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+.notificationPanel .notificationSection ul.notifications li .row .icon {
+    display: table-cell;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    position: relative;
+}
+.notificationPanel .notificationSection ul.notifications li .row .icon img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.notificationPanel .notificationSection ul.notifications li .row .icon.unread div {
+    width: 4px;
+    height: 4px;
+    background-color: #fa533e;
+    border-radius: 50%;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+.notificationPanel .notificationSection ul.notifications li .row .content {
+    display: table-cell;
+    padding: 0 0 0 13px;
+    vertical-align: middle;
+    line-height: 1.4;
+    color: #4a4a4a;
+    font-size: .917em;
+}
+.notificationPanel .notificationSection ul.notifications li .row .content .date {
+    padding: 8px 0 0;
+    color: #9b9b9b;
+    font-size: .817em;
+}
+.bodyFixed {
+    overflow: hidden;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}.loadMore {
+     padding: 13px 0;
+     background-color: #fafafa;
+     border-top: 1px solid #e8e8e8;
+ }
+.loadMore .loadingIcon {
+    width: 12px;
+    height: 12px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    border-top-color: #de4d3b;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    position: relative;
+}
+.loadingIcon {
+    line-height: 20px;
+    vertical-align: middle;
+}
+.loadingText {
+    line-height: 20px;
+    vertical-align: -1px;
+    margin: 0 0 0 5px;
+    color: #4a4a4a;
+    font-size: .917em;
+}
+.refCodeBox {
+    background: #fafafa;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px 35px;
+    padding: 5px 10px;
+    width: 228px;
+}
+.refCodeBox .refCodeIco {
+    background: url(https://cdn1.dream11.com/images/ref-code-ico.png?ver=9.72) left top no-repeat;
+    float: left;
+    margin: 6px 10px 0;
+    height: 26px;
+    width: 24px;
+}
+.refCodeBox .refCodeText {
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+.refCodeBox .refSmText {
+    color: #7f7f7f;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.refCodeBox .referralCode {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.refPopupWrapper {
+    overflow: hidden;
+    position: relative;
+}
+#colorbox .refClose {
+    background: url(https://cdn1.dream11.com/images/refer-close.png?ver=9.72) center top no-repeat;
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+}
+.refTopImg, .refTopImgUs {
+    height: 99px;
+    width: 500px;
+    margin-top: 25px;
+}
+.refTopImg {
+    background: url(https://cdn1.dream11.com/images/gaf-popup.png?ver=9.72) center top no-repeat;
+}
+.refTopImgUs {
+    background: url(https://cdn1.dream11.com/images/gaf-popup-us.png?ver=9.72) center top no-repeat;
+}
+.refPopupInner {
+    padding: 25px 90px 15px;
+    width: 320px;
+    float: left;
+    text-align: center;
+}
+.refPopupInner h3 {
+    font-size: 20px;
+}
+.refPopupInner .refTopText {
+    padding: 5px 0 10px;
+}
+.refPopupInner .refTopText p {
+    font-size: 14px;
+}
+.refPopupInner .refTopText p span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #c61d23;
+}
+.refPopupInner .refShareLink {
+    clear: both;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.refPopupInner .refShareLink .txtField {
+    border: 1px solid #c5c5c5;
+    background: #e5e5e5;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-right: 5px;
+    min-width: 170px;
+    padding: 6px 7px;
+    float: none!important;
+}
+.refPopupInner .refSocialLinks {
+    clear: both;
+    width: 250px;
+    float: left;
+    margin: 0 35px 10px;
+}
+.refPopupInner .refSocialLinks li {
+    float: left;
+    text-align: left;
+    width: 50%}
+.refPopupInner .refSocialLinks li a {
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+    min-width: 105px;
+}
+.refPopupInner .refSocialLinks li a span {
+    background: url(https://cdn1.dream11.com/images/ref-sprite.png?ver=9.72) left top no-repeat;
+    float: left;
+    text-indent: -999999px;
+    margin-right: 10px;
+}
+.refPopupInner .refSocialLinks li a:hover {
+    text-decoration: none;
+}
+.refPopupInner .refSocialLinks li .fbBtnIco {
+    background: #326cee;
+    float: left;
+}
+.refPopupInner .refSocialLinks li .fbBtnIco span {
+    background-position: 0 0;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+.refPopupInner .refSocialLinks li .glBtnIco {
+    background: #e73434;
+    float: right;
+}
+.refPopupInner .refSocialLinks li .glBtnIco span {
+    background-position: 0 100%;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+}
+.refPopupInner .refSocialLinks li p {
+    font-size: 12px;
+    padding-top: 3px;
+}
+.refPopupInner .refBtmLinks {
+    float: left;
+    width: 250px;
+    margin: 10px 35px;
+}
+.refPopupInner .refBtmLinks .faqLink {
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.appBanners {
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 10px 0 40px;
+}
+footer {
+    border-top: 1px solid #264462!important;
+    clear: both;
+    margin: 30px auto 0!important;
+    padding: 25px 0!important;
+    position: relative;
+    width: 1000px;
+}
+footer>span {
+    background: url(https://cdn1.dream11.com/images/v2/common-sprite.png?ver=9.72) no-repeat;
+    height: 40px;
+    left: 50%;
+    margin-left: -23px;
+    position: absolute;
+    top: -30px;
+    width: 56px;
+}
+footer .footerCrLogo {
+    background-position: center -220px;
+}
+footer .footerFtLogo {
+    background-position: center -265px;
+}
+footer .footerRgLogo {
+    background-position: center -310px;
+}
+footer .footerKbLogo {
+    background-position: center -355px;
+}
+footer .footerNav {
+    float: left;
+    padding-left: 35px;
+    width: 190px;
+}
+footer .footerNav li {
+    padding: 0 0 15px;
+}
+footer .footerNav li a {
+    color: #264462;
+}
+footer .footerBtm {
+    border-top: 1px solid #264462;
+    clear: both;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%}
+footer .footerBtm a {
+    color: #264462;
+    text-decoration: underline;
+}
+#tourBar .rndContainer .rndSlider .nextAr:hover, #tourBar .rndContainer .rndSlider .prevAr:hover, #tourBar .slGamesTab .slGameBtn .slGameIco, .mainContent .splLeague .getAFriend .cont a:hover, .mainContent .splLeague .getAFriend .title a:hover, .mainContent .splLeague .privateLg .title a:hover {
+    text-decoration: none;
+}
+footer .footerBtm span {
+    padding: 0 5px;
+}
+footer .footerRgt {
+    float: left;
+    padding-left: 20px;
+    width: 200px;
+}
+footer .footerRgt .scMediaBox {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+footer .hrTxt {
+    background: #c61d23;
+    color: #fff;
+    float: right;
+    line-height: 18px;
+    padding: 0 4px;
+}
+.fstaLogo {
+    background: url(https://cdn1.dream11.com/images/v2/fsta-logo.jpg?ver=9.72) left top no-repeat;
+    color: #264462;
+    clear: both;
+    float: left;
+    font-size: 11px;
+    height: 40px;
+    margin: 20px 0 10px;
+    padding: 15px 0 0 72px;
+    width: 228px;
+}
+.scMediaBox a {
+    background: url(https://cdn1.dream11.com/images/v2/common-sprite.png?ver=9.72) no-repeat;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-top: 10px;
+    text-indent: -999999px;
+}
+.scMediaBox a.scFbIco {
+    background-position: 0 -30px;
+}
+.scMediaBox a.scTwIco {
+    background-position: 0 -77px;
+}
+.scMediaBox a.scGlIco {
+    background-position: 0 -125px;
+}
+.flagsBox span {
+    display: block;
+    height: 13px;
+    margin: 0 auto 4px;
+    width: 22px;
+}
+.flagsBox span:last-child {
+    background: 0 0;
+    height: auto;
+    text-indent: inherit;
+    width: auto;
+}
+.mWinPromo {
+    width: 720px;
+}
+.mWinPromo .promoLgInfo {
+    float: left!important;
+    width: 305px;
+    padding-left: 15px;
+    border-right: 1px solid #d7d7d7;
+}
+.mWinPromo .promoWinBox {
+    float: left!important;
+    width: 360px!important;
+    padding-left: 15px;
+}
+.mWinPromo .mWinNote {
+    padding: 0 15px 10px;
+    font-size: 12px;
+    color: #878787;
+}
+.mWinPromo .mWinNote:after, .mWinPromo .mWinNote:before {
+    content: "";
+    display: table;
+}
+.mWinPromo .mWinNote:after {
+    clear: both;
+}
+.mWinPromo .mWinTbl {
+    display: table;
+    margin: 0;
+    width: 99.5%;
+    background: #f6f1ed;
+    font-size: 13px;
+    border: 1px solid #d7d7d7;
+}
+.mWinPromo .mWinTbl .mTblRow {
+    display: table-row;
+}
+.mWinPromo .mWinTbl .mTblCell, .mWinPromo .mWinTbl .mTblHead, .mWinPromo .mWinTbl .tblCell {
+    display: table-cell;
+    text-align: left;
+    border-bottom: 1px solid #d7d7d7;
+    width: 50%;
+    vertical-align: middle;
+}
+.mWinPromo .mWinTbl .mTblHead {
+    padding: 6px 12px;
+    font-weight: 700!important;
+}
+.mWinPromo .mWinTbl .mTblCell {
+    padding: 5px 12px;
+}
+.mWinPromo .lgOptionBox {
+    float: left!important;
+    clear: both;
+    width: 290px;
+    margin: 15px 15px 15px 0;
+}
+.mWinPromo .lgOptionBox .lgOptionRow {
+    padding-top: 15px;
+}
+.mWinPromo .promoWinAmt {
+    width: 314px;
+    height: 53px;
+    line-height: 47px;
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700!important;
+    background: url(https://cdn1.dream11.com/images/v2/win-amt-bg.png?ver=9.72) left top no-repeat;
+    margin-left: -22px;
+    text-align: center;
+}
+.mWinPromo .bigFtBtn {
+    height: 30px!important;
+    line-height: 30px!important;
+    font-size: 16px!important;
+}
+.slotCount {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d7d7d7;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 3px;
+}
+.slotCount span {
+    display: inline-block;
+    height: 2px;
+    background: #c61d23;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slotTxt {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.lgOptionRow {
+    clear: both;
+    float: left!important;
+    width: 100%;
+    line-height: 18px;
+}
+.lgOptionRow .lgOption {
+    background: url(https://cdn1.dream11.com/images/v2/sprite-lg-cards.png?ver=9.72) no-repeat;
+    float: left;
+    height: 18px;
+    margin: 0 5px 0 0;
+    text-indent: -9999px;
+    width: 18px;
+}
+.lgOptionRow .lgOption.mWinner {
+    background-position: center 0;
+}
+.lgOptionRow .lgOption.gLeague {
+    background-position: center -23px;
+}
+.lgOptionRow .lgOption.mEntry {
+    background-position: center -46px;
+}
+.lgOptionRow .lgOption.fav {
+    background-position: center -210px;
+}
+.lgOptionRow .lgOption.fav.sel {
+    background-position: center -186px;
+}
+.noTeam .crField {
+    margin: 12px 0 43px;
+}
+@-moz-document url-prefix() {
+    .crField {
+        margin: 49px 0 10px;
+    }
+}.crField {
+     position: relative;
+     clear: both;
+     float: left!important;
+     margin: 45px 0 10px;
+     background: url(https://cdn1.dream11.com/images/v2/fantasy-league-field.jpg?ver=9.72) left top no-repeat;
+     background-size: contain;
+     width: 528px;
+     height: 371px;
+ }
+.crField .player {
+    position: absolute;
+    background-image: url(https://cdn1.dream11.com/images/v2/placeholder.png?ver=9.72);
+    background-size: 100%}
+.crField .player .plName .plPrice, .crField .player .plName span {
+    background: #007236;
+    display: inline-block;
+    padding: 1px 3px;
+    clear: both;
+}
+.crField .player .plName {
+    font-size: 11px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    bottom: -10px;
+    left: -15px;
+    width: 90px;
+    height: 16px;
+}
+.crField .player .plName span {
+    min-width: 65px;
+}
+.crField .player .plName .plPrice {
+    min-width: 25px;
+}
+.crField .capBg .plPrice, .crField .capBg span {
+    background: #efc10c!important;
+    color: #264462;
+}
+.crField .vcapBg .plPrice, .crField .vcapBg span {
+    background: #b4e0f2!important;
+    color: #264462;
+}
+.crField .fieldBtnBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -78px;
+}
+.crField .fieldBtnBox .redBtn {
+    padding: 12px 24px;
+}
+.crField.noTeam {
+    margin: 10px 0;
+}
+.capIco, .plSmIcon, .vCapIco {
+    margin: 0 0 0 44px;
+    width: 23px;
+    height: 21px;
+    display: inline-block;
+    max-width: 100%}
+.plSmIcon {
+    background: url(https://cdn1.dream11.com/images/v2/sm-icon.png?ver=9.72) left top no-repeat;
+}
+.capIco {
+    background: url(https://cdn1.dream11.com/images/v2/sm-icon.png?ver=9.72) no-repeat;
+    background-size: 100%}
+.vCapIco {
+    background: url(https://cdn1.dream11.com/images/v2/sm-icon.png?ver=9.72) 0 -25px no-repeat;
+    background-size: 100%}
+.removePl {
+    display: inline-block;
+    max-width: 100%;
+    background: url(https://cdn1.dream11.com/images/v2/sm-icon.png?ver=9.72) -6px -51px no-repeat;
+    margin: 0 0 0 45px!important;
+    width: 10px!important;
+    height: 11px!important;
+    cursor: pointer;
+}
+.bt1, .wc1 {
+    width: 62px;
+}
+.wc1 {
+    background-position: 0 -102px;
+    height: 56px;
+    top: -32px;
+    left: 300px;
+}
+.bt1, .bt2 {
+    height: 76px;
+}
+.bt1 {
+    background-position: 0 -280px;
+    top: 50px;
+    left: 270px;
+}
+.bt2, .bt3 {
+    background-position: 0 -280px;
+    width: 62px;
+    top: 20px;
+}
+.bt2 {
+    left: 190px;
+}
+.bt3 {
+    height: 74px;
+    left: 355px;
+}
+.bt4, .bt5 {
+    background-position: 0 -280px;
+    width: 62px;
+    height: 76px;
+    top: -5px;
+}
+.bt4 {
+    left: 115px;
+}
+.bt5 {
+    left: 430px;
+}
+.fd1, .fd2, .fd3 {
+    background-position: 0 -176px;
+    width: 62px;
+    height: 84px;
+}
+.fd1 {
+    top: 97px;
+    left: 100px;
+}
+.fd2 {
+    top: 118px;
+    left: 335px;
+}
+.fd3 {
+    top: 105px;
+    left: 435px;
+}
+.bw1, .bw2, .bw3 {
+    background-position: 0 top;
+    width: 62px;
+    height: 80px;
+}
+.bw1 {
+    top: 185px;
+    left: 202px;
+}
+.bw2 {
+    top: 205px;
+    left: 125px;
+}
+.bw3 {
+    top: 210px;
+    left: 275px;
+}
+.bw4, .bw5 {
+    background-position: 0 top;
+    width: 62px;
+    height: 80px;
+    top: 220px;
+}
+.bw4 {
+    left: 35px;
+}
+.bw5 {
+    left: 365px;
+}
+#tourBar {
+    float: left;
+    margin: -44px 0 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#tourBar .slGamesTab {
+    float: left;
+    margin: 0 0 0 200px;
+}
+#tourBar .slGamesTab .slGameBtn {
+    float: left;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+#tourBar .slGamesTab .slGameBtn .slGameIco {
+    float: left;
+    height: 18px;
+    margin: 0 5px;
+    width: 18px;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink {
+    background: 0 0;
+    border-style: solid;
+    border-width: 3px 1px 1px;
+    border-color: #d7d7d7 #d7d7d7 #fff;
+    border-radius: 5px 5px 0 0;
+    color: #264462;
+    float: left;
+    margin: 0 5px;
+    padding: 9px 12px;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink[title='Fantasy Rugby'] {
+    display: none;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span:first-child {
+    background: url(/images/v2/tourBarSportSelect.png?ver=9.72) no-repeat;
+    float: left;
+    height: 18px;
+    margin: 0 5px 0 2px;
+    text-decoration: none;
+    width: 18px;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span.slCrGame {
+    background-position: 0 0;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span.slFtGame {
+    background-position: -18px 0;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span.slRgGame {
+    background-position: -36px 0;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span.alCrGame {
+    background-position: 0 0;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span.slKbGame {
+    background-position: -74px 0;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink span.slNBAGame {
+    background-position: -94px 0;
+}
+#tourBar .slGamesTab .slGameBtn .gameName {
+    float: left;
+    margin: 3px 0 0;
+    text-transform: uppercase;
+}
+#tourBar .slGamesTab .slGameBtn .timer {
+    display: none;
+    clear: left;
+    float: left;
+    font-size: .8em;
+    margin: 0 0 0 23px;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn {
+    border-color: #c61d23 #d7d7d7 #fff;
+    padding: 10px 12px 9px;
+    position: relative;
+    z-index: 1;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn .gameName {
+    float: left;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn span.slCrGame {
+    background-position: 0 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn span.slFtGame {
+    background-position: -18px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn span.slRgGame {
+    background-position: -36px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn span.alCrGame {
+    background-position: -54px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn span.slKbGame {
+    background-position: -74px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn span.slNBAGame {
+    background-position: -94px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover {
+    border-color: #c61d23 #d7d7d7 #fff;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover .gameName {
+    float: left;
+}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover span.slCrGame {
+    background-position: 0 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover span.slFtGame {
+    background-position: -18px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover span.slRgGame {
+    background-position: -36px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover span.alCrGame {
+    background-position: -54px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover span.slKbGame {
+    background-position: -74px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink:hover span.slNBAGame {
+    background-position: -94px 100%}
+#tourBar .slGamesTab .slGameBtn .slGameLink.linkOn:hover {
+    padding: 10px 12px 9px;
+}
+#tourBar .slGamesTab .slGameBtn .linkOn, #tourBar .slGamesTab .slGameBtn .linkOn:hover, #tourBar .slGamesTab .slGameBtn .slGameLink:hover {
+    background: 0 0;
+}
+#tourBar .rndContainer {
+    float: left;
+    position: relative;
+    width: 100%;
+    top: -1px;
+    z-index: 0;
+}
+#tourBar .rndContainer .roundsMain {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    float: left;
+    width: 99.8%}
+#tourBar .rndContainer .rndFilter {
+    float: left;
+    margin: 23px 10px 0;
+    width: 150px;
+}
+#tourBar .rndContainer .rndFilter .customSelect {
+    float: left;
+    width: 100%}
+#tourBar .rndContainer .rndFilter .customSelect .label {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    font-size: 1.1em;
+    padding: 5px;
+    position: relative;
+    line-height: .9;
+    width: calc(90%);
+}
+#tourBar .rndContainer .rndFilter .customSelect .label .arr {
+    border-top: 8px solid #264462;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    float: right;
+    height: 0;
+    margin: 2px 0;
+    position: relative;
+    width: 0;
+}
+#tourBar .rndContainer .rndFilter .customSelect .label .arr:before {
+    content: '';
+    border-top: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    float: right;
+    height: 0;
+    left: 0;
+    margin: -11px -8px -8px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+#tourBar .rndContainer .rndFilter .customSelect ul {
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30%;
+    z-index: 1;
+}
+#tourBar .rndContainer .rndFilter .customSelect ul li {
+    float: left;
+    margin: 0 10px;
+    padding: 0 1px;
+    width: calc(100% - 22px);
+}
+#tourBar .rndContainer .rndFilter .customSelect ul li:hover {
+    border: none;
+    padding: 0 1px;
+}
+#tourBar .rndContainer .rndFilter .customSelect ul li a {
+    border-bottom: 1px solid #d7d7d7;
+    color: #264462;
+    float: left;
+    padding: 10px 0;
+    width: 100%}
+#tourBar .rndContainer .rndFilter .customSelect ul li:first-child a {
+    float: left;
+    padding: 27px 0 10px;
+}
+#tourBar .rndContainer .rndFilter .customSelect ul li a span {
+    float: right;
+    font-size: .8em;
+    margin: 1px 0 0;
+}
+#tourBar .rndContainer .rndFilter .customSelect .label>strong {
+    float: left;
+    font-weight: 400;
+    width: 82%}
+#tourBar .rndContainer .rndsCntDiv {
+    border-right: 1px solid #d7d7d7;
+    color: #c71d22;
+    cursor: pointer;
+    float: left;
+    font-size: .9em;
+    margin: 7px 0;
+    padding: 0 10px;
+    text-align: center;
+    width: 83px;
+}
+#tourBar .rndContainer .rndsCntDiv i {
+    background: #c71d22;
+    clear: both;
+    content: '';
+    float: left;
+    height: 3px;
+    margin: 0 0 3px 40px;
+    position: relative;
+    width: 3px;
+}
+#tourBar .rndContainer .rndsCntDiv i:after, #tourBar .rndContainer .rndsCntDiv i:before {
+    background: #c71d22;
+    content: '';
+    height: 3px;
+    margin: 0 3px 3px 0;
+    width: 3px;
+    float: left;
+    top: 0;
+}
+#tourBar .rndContainer .rndsCntDiv i:before {
+    left: -6px;
+    position: absolute;
+}
+#tourBar .rndContainer .rndsCntDiv i:after {
+    position: absolute;
+    right: -9px;
+}
+#tourBar .rndContainer .rndSlider {
+    background: #fff;
+    float: left;
+    margin: 3px 0;
+    width: 82.6%}
+#tourBar .rndContainer .rndSlider .nextAr, #tourBar .rndContainer .rndSlider .prevAr {
+    background: #3759a5;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #d7d7d7;
+    color: #fff;
+    float: left;
+    font-size: 1.6em;
+    line-height: .7;
+    margin: 0;
+    padding: 25px 5px;
+    overflow: hidden;
+}
+#tourBar .rndContainer .rndSlider .nextAr span, #tourBar .rndContainer .rndSlider .prevAr span {
+    background: url(https://cdn1.dream11.com/images/ico-arr-tourbar.png?ver=9.72) no-repeat;
+    float: left;
+    height: 14px;
+    width: 9px;
+}
+#tourBar .rndContainer .rndSlider .nextAr {
+    border-radius: 0 4px 4px 0;
+    float: right;
+}
+#tourBar .rndContainer .rndSlider .nextAr span {
+    background-position: 100% 0;
+    border-radius: 0 4px 4px 0;
+}
+#tourBar .rndContainer .rndSlider .nextAr.inactive, #tourBar .rndContainer .rndSlider .prevAr.inactive {
+    color: #d7d7d7;
+    cursor: default;
+    opacity: .5;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper {
+    float: left;
+    overflow: hidden;
+    width: 95%}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul {
+    float: left;
+    margin: 0 15px 0 0;
+    position: relative;
+    width: 20000em;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li {
+    float: left;
+    overflow: hidden;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li>div {
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    float: left;
+    margin: 2px 0 0;
+    min-width: 190px;
+    padding: 8px 5px;
+    position: relative;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li:after {
+    background: #d5d3d3;
+    content: "";
+    float: left;
+    height: 60px;
+    margin: 2px 4px 0;
+    width: 1px;
+}
+.card .winDesc span:before, .lgCards .filter .title:before, .lgCards .tabs>ul:after {
+    content: ''}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li>div:hover {
+    border: 1px solid #d5d3d3;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li.rndActive>div {
+    background-color: #d8e1f6;
+    border: 2px solid #3759a5;
+    padding: 7px 4px;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li>div>div:first-child {
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .flagsBox {
+    font-size: .9em;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .flagsBox.m1 {
+    font-size: .9em;
+    margin: 0;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .mtType {
+    font-size: .9em;
+    margin: 0;
+    line-height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 98%;
+    word-wrap: break-word;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .vs {
+    font-size: .9em;
+    margin: 8px 9px;
+    padding: 0;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .mtdetail {
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    width: 70px;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .timeDiv {
+    background: url(https://cdn1.dream11.com/images/mobile/ico-clock.png?ver=9.72) no-repeat;
+    color: #e13939;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+.actionBtns .back, .selMatch {
+    display: none;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .rndLink {
+    color: #006fd9;
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 14px 0 0;
+    text-align: center;
+    width: 100%}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .rndLink.pts, .mainContent .splLeague .freeLg .cont.noLg .lgInfo a {
+    font-weight: 400;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .rndDate {
+    text-align: center;
+}
+#tourBar .rndContainer .rndSlider .roundsWrapper ul li .flagsBox.m1 {
+    width: 110px;
+}
+body {
+    font-size: 13px;
+}
+.mainWrapper {
+    float: left;
+    width: 100%}
+.mainWrapper .ctrAlCont {
+    margin: 0 auto;
+    width: 1000px;
+}
+.tuOverlay {
+    background: url(https://cdn1.dream11.com/images/v2/overlay.png?ver=9.72) left top;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.selTour {
+    width: 850px;
+    height: 67px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 170px;
+    background: url(https://cdn1.dream11.com/images/v2/select-tour.png?ver=9.72) left top no-repeat;
+}
+.actionBtns, .selMatch {
+    position: absolute;
+    z-index: 2;
+}
+.selMatch {
+    width: 281px;
+    height: 103px;
+    top: 68px;
+    left: 520px;
+    background: url(https://cdn1.dream11.com/images/v2/select-match-white.png?ver=9.72) left top no-repeat;
+}
+.actionBtns {
+    top: 75px;
+    left: 270px;
+}
+.actionBtns a {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.actionBtns.s1 {
+    top: 170px;
+    left: 650px;
+}
+.actionBtns.s1 .back {
+    display: block;
+}
+.actionBtns .gotIt, .actionBtns.s1 .Next {
+    display: none;
+}
+.actionBtns.s1 .gotIt {
+    display: block;
+}
+.roundsMain>.close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+}
+.lgOption {
+    background: url(https://cdn1.dream11.com/images/v2/sprite-lg-cards.png?ver=9.72) no-repeat;
+    float: left;
+    height: 18px;
+    margin: 5px 5px 5px 0;
+    text-indent: -9999px;
+    width: 18px;
+}
+.card .lgOption {
+    margin: 8px 0 0 5px;
+}
+.lgOption.mWinner {
+    background-position: center 0;
+}
+.lgOption.gLeague {
+    background-position: center -23px;
+}
+.lgOption.mEntry {
+    background-position: center -46px;
+}
+.lgOption.fav {
+    background-position: center -210px;
+}
+.lgOption.fav.sel {
+    background-position: center -186px;
+}
+.mainContent {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+}
+.mainContent .splLeague {
+    float: left;
+    margin: 16px 0 0;
+    width: 100%}
+.mainContent .splLeague>div {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    float: left;
+    margin: 0 1.5% 0 0;
+    width: 32.1%}
+.mainContent .splLeague>div:last-child {
+    margin: 0;
+}
+.mainContent .splLeague .freeLg .title {
+    background: #f59c23;
+    box-shadow: 0 0 5px 1px #d7d7d7;
+    color: #fff;
+    float: left;
+    width: 100%}
+.mainContent .splLeague .freeLg .title p {
+    float: left;
+    font-size: 1.3em;
+    padding: 5px 30px 5px 10px;
+}
+.mainContent .splLeague .freeLg .title .lgFillCnt {
+    float: right;
+    margin: 6px 9px;
+    min-width: 20%;
+    text-align: center;
+}
+.mainContent .splLeague .freeLg .title .lgFillCnt .lgFillTxt {
+    display: inherit;
+    font-size: .9em;
+    line-height: 1;
+}
+.mainContent .splLeague .freeLg .title .lgFillCnt .lgFilled {
+    background: #fff;
+    float: left;
+    height: 2px;
+    margin: 5px 0 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.mainContent .splLeague .freeLg .title .lgFillCnt .lgFilled span {
+    background: #c61d23;
+    content: '';
+    float: left;
+    height: 2px;
+}
+.mainContent .splLeague .freeLg .cont {
+    color: #4c62ae;
+    float: left;
+    padding: 2.8% 5%;
+    width: 90%}
+.mainContent .splLeague .freeLg .cont.noLg {
+    padding: 4% 5%}
+.mainContent .splLeague .freeLg .cont .lgInfo {
+    float: left;
+    width: 58%}
+.mainContent .splLeague .freeLg .cont.noLg .lgInfo {
+    text-align: center;
+    width: 100%}
+.mainContent .splLeague .freeLg .cont .leagueWinTitle, .mainContent .splLeague .freeLg .cont .winTitle {
+    float: left;
+    font-weight: 700;
+    font-size: 1.1em;
+    width: 100%}
+.mainContent .splLeague .freeLg .cont .lgJoin {
+    float: left;
+    margin: 5px 0;
+    width: 42%}
+.mainContent .splLeague .freeLg .cont .lgJoin span {
+    float: right;
+    margin: 0 6px 0 0;
+}
+.mainContent .splLeague .freeLg .cont .lgJoin a {
+    float: right;
+}
+.mainContent .splLeague .freeLg .cont .noLeague {
+    padding: 4.9% 0;
+    width: 100%;
+    text-align: center;
+}
+.mainContent .splLeague .freeLg .cont .mlWinLink {
+    float: left!important;
+    margin-right: 5px;
+    font-size: 11px;
+    line-height: 28px;
+    color: #06d!important;
+}
+.mainContent .splLeague .getAFriend .title {
+    background: #1fae79;
+    box-shadow: 0 0 5px 1px #d7d7d7;
+    color: #fff;
+    float: left;
+    width: 100%}
+.mainContent .splLeague .getAFriend .title p {
+    background: url(https://cdn1.dream11.com/images/v2/ico-refer-friend-1.png?ver=9.72) 100% center no-repeat;
+    float: left;
+    font-size: 1.3em;
+    padding: 5px 30px 5px 10px;
+}
+.mainContent .splLeague .getAFriend .title a {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    height: auto;
+    margin: 5px 9px;
+    padding: 1px 5px;
+    text-align: center;
+    width: auto;
+}
+.mainContent .splLeague .getAFriend .cont {
+    float: left;
+    padding: 5.5% 5%;
+    width: 90%}
+.mainContent .splLeague .getAFriend .cont span {
+    color: #1fae79;
+    float: left;
+    line-height: 1;
+    margin: 8px 0 0;
+}
+.mainContent .splLeague .getAFriend .cont a {
+    border: 1px solid #1fae79;
+    border-radius: 5px;
+    color: #27ad7b;
+    float: right;
+    padding: 5px 10px;
+}
+.mainContent .splLeague .howToPlaySec {
+    border: 1px solid #e4cf93;
+    background-image: -webkit-linear-gradient(to bottom, #fffbf4, #ffefbe);
+    background-image: -o-linear-gradient(to bottom, #fffbf4, #ffefbe);
+    background-image: -moz-linear-gradient(to bottom, #fffbf4, #ffefbe);
+    background-image: linear-gradient(to bottom, #fffbf4, #ffefbe);
+}
+.mainContent .splLeague .howToPlaySec .leftIcon {
+    background: url(https://cdn1.dream11.com/images/v2/lg-help-player.png?ver=9.72) left top no-repeat;
+    position: relative;
+    float: left;
+    margin: 4px 0 0 5px;
+    height: 90px;
+    width: 97px;
+}
+.mainContent .splLeague .howToPlaySec .rightText {
+    float: left;
+    margin: 25px 0 0 10px;
+}
+.mainContent .splLeague .howToPlaySec h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.mainContent .splLeague .howToPlaySec a {
+    display: block;
+}
+.mainContent .splLeague .privateLg .title {
+    background: #e84b3a;
+    box-shadow: 0 0 5px 1px #d7d7d7;
+    color: #fff;
+    float: left;
+    width: 100%}
+.mainContent .splLeague .privateLg .title p {
+    float: left;
+    font-size: 1.3em;
+    padding: 5px 30px 5px 10px;
+}
+.mainContent .splLeague .privateLg .title a {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    height: auto;
+    margin: 5px 9px;
+    padding: 1px 5px;
+    text-align: center;
+    width: auto;
+}
+.mainContent .splLeague .privateLg .cont {
+    float: left;
+    padding: 5% 4%;
+    width: 92%}
+.mainContent .splLeague .privateLg .cont .inviteCode {
+    float: left;
+    width: 62%;
+    margin-bottom: 3px;
+}
+.mainContent .splLeague .privateLg .cont .inviteCode input {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    float: left;
+    padding: 5px 5px 6px;
+    width: 63%}
+.mainContent .splLeague .privateLg .cont .inviteCode a {
+    margin: 0 0 0 5px;
+}
+.mainContent .splLeague .privateLg .cont>input {
+    background: 0 0;
+    border: 1px solid #e84b3a;
+    border-radius: 5px;
+    color: #e84b3a;
+    float: right;
+    padding: 5px 10px;
+}
+.mainContent .splLeague .privateLg .cont .rightLgLink {
+    float: right;
+    padding: 7px 0 7px 10px;
+    border-left: 1px solid #d7d7d7;
+}
+.lgCards {
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+    min-height: 520px;
+}
+.lgCards .tabs {
+    float: left;
+    margin: 0 0 15px;
+    width: 590px;
+}
+.lgCards .tabs>ul {
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 96%}
+.lgCards .tabs>ul:after {
+    border-bottom: 1px solid #d7d7d7;
+    float: left;
+    margin: -1px 0 0;
+    width: 100%}
+.lgCards .tabs>ul>li {
+    background: 0 0;
+    border-style: solid;
+    border-width: 3px 1px 1px;
+    border-color: #d7d7d7 #d7d7d7 #fff;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    float: left;
+    font-weight: 700;
+    margin: 0 5px;
+    padding: 10px 20px;
+    position: relative;
+}
+.lgCards .tabs>ul>li.active, .lgCards .tabs>ul>li:hover {
+    border-width: 3px 1px 1px;
+    border-color: #c61d23 #d7d7d7 #fff;
+    margin: 0 5px;
+}
+.lgCards .tabs>ul>li.active {
+    padding: 10px 20px 11px;
+}
+.lgCards .tabs>ul>li a {
+    color: #264462;
+}
+.lgCards .tabs>ul>li a span.lgCount {
+    background: #c61d23;
+    border-radius: 50px;
+    color: #fff;
+    font-size: .9em;
+    line-height: 1;
+    margin: 0 0 0 5px;
+    padding: 2px 5px;
+}
+.lgCards .tabs>ul>li#refreshP {
+    border: none;
+    float: right;
+    padding: 17px 0 0;
+    margin: 0;
+}
+.lgCards .tabs>ul>li#refreshP a {
+    color: #06d;
+    text-decoration: underline;
+}
+.lgCards .filter {
+    background: #f7f7f7;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    float: left;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 588px;
+}
+.lgCards .filter .title {
+    background: #c61d24;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+    height: 26px;
+    line-height: 1;
+    margin: 0 15px 0 0;
+    position: relative;
+    padding: 41px 10px 0;
+    width: auto;
+}
+.lgCards .filter .title:before {
+    background: url(https://cdn1.dream11.com/images/v2/sprite-lg-cards.png?ver=9.72) 0 -139px no-repeat;
+    float: left;
+    left: 50%;
+    height: 22px;
+    margin: 0 0 0 -9px;
+    position: absolute;
+    top: 12px;
+    width: 18px;
+}
+.lgCards .filter p {
+    float: left;
+    margin: 9px 15px 0 0;
+    width: 23.5%}
+.lgCards .filter p label {
+    color: #35393a;
+    float: left;
+    margin: 0 0 5px;
+}
+.lgCards .filter p select {
+    float: left;
+    margin: 0 14px 0 0;
+    padding: 5px;
+    width: 100%}
+.lgCards .filter a {
+    color: #35393a;
+    float: right;
+    font-weight: 700;
+    margin: 31px 0 0;
+    padding: 4px 20px 4px 0;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.boastWinBtn:hover, .joinLgInfo .lgPdfLink:hover, .lgCards .lgField .addTeamBtn a:hover, .lgCards .lgField a.cloneTeam:hover, .lgInviteBtn:hover, .privateLgMain .btnBtnDiv .newBtn:hover, .privateLgMain .setWinners .setBtn:hover, .teamNameRow .editLinkBox a, .teamPreferPopup .slTeamBottom .blueBtn:hover {
+    text-decoration: none;
+}
+.chgFilter {
+    -webkit-animation: box-shadow-anim linear .3s 1;
+    animation: box-shadow-anim linear .3s 1;
+}
+@-webkit-keyframes box-shadow-anim {
+    0% {
+        box-shadow: 0 0 0 0 #c61d24;
+    }
+    50% {
+        box-shadow: 0 0 5px 5px #dd787c;
+    }
+    99.95% {
+        box-shadow: 0 0 10px 10px #f7f7f7;
+    }
+    100% {
+        box-shadow: 0 0 0 0 #f7f7f7;
+    }
+}@keyframes box-shadow-anim {
+     0% {
+         box-shadow: 0 0 0 0 #c61d24;
+     }
+     50% {
+         box-shadow: 0 0 5px 5px #dd787c;
+     }
+     99.95% {
+         box-shadow: 0 0 10px 10px #f7f7f7;
+     }
+     100% {
+         box-shadow: 0 0 0 0 #f7f7f7;
+     }
+ }.lgCards .tabs>ul>li#RoundStatLeaguesTab {
+      padding: 10px 40px 10px 20px;
+  }
+.lgCards .tabs>ul>li#RoundStatLeaguesTab.active {
+    padding: 10px 40px 11px 20px;
+}
+@-moz-document url-prefix() {
+    .lgCards .lgField, .lgCards .lgField.noTeam {
+        height: 411px;
+    }
+}.lgCards .lgField {
+     border: 1px solid #d7d7d7;
+     border-radius: 3px;
+     float: right;
+     margin: 0 5px 15px 0;
+     padding: 0;
+     width: 387px;
+ }
+.lgCards .lgField div.teams {
+    float: left;
+    margin: 0 0 10px;
+    width: 100%;
+    -webkit-box-shadow: 0 3px 3px #d7d7d7;
+    -moz-box-shadow: 0 3px 3px #d7d7d7;
+    box-shadow: 0 3px 3px #d7d7d7;
+    height: 50px;
+}
+.lgCards .lgField .teamName {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lgCards .lgField .guruLink {
+    float: right;
+    margin-right: 10px;
+    color: #06d;
+    background: url(https://cdn1.dream11.com/images/v2/sprite-lg-cards.png?ver=9.72) 0 -92px no-repeat;
+    line-height: 20px;
+    padding-left: 20px;
+}
+#RoundLockScore .tmNumber, .card .win, .card .winDet p {
+    color: #c61d23;
+}
+.lgCards .lgField .lgTopBtn {
+    clear: both;
+    float: left!important;
+    width: 100%;
+    margin-top: 5px;
+    height: 29px;
+}
+.lgCards .lgField .lgTopBtn .lightBlueBtn {
+    float: left;
+    margin-left: 10px;
+}
+.lgCards .lgField .lgTopBtn .darkBlueBtn {
+    float: right;
+    margin-right: 10px;
+}
+.crField .vCapIco, .lgCards .capIco {
+    margin-left: 32px;
+}
+.lgCards .lgField .plName {
+    bottom: -10px;
+    left: -18px;
+    font-size: .83em;
+}
+.lgCards .lgField .crField {
+    width: 387px;
+    height: 275px;
+}
+.lgCards .lgField .wc1 {
+    background-position: 0 -77px;
+    width: 46px;
+    height: 42px;
+    top: -30px;
+    left: 220px;
+}
+.lgCards .lgField .bt1, .lgCards .lgField .bt2, .lgCards .lgField .bt3, .lgCards .lgField .bt4, .lgCards .lgField .bt5 {
+    background-position: 0 -209px;
+    width: 46px;
+    height: 55px;
+}
+.lgCards .lgField .bt1 {
+    top: 35px;
+    left: 205px;
+}
+.lgCards .lgField .bt2 {
+    top: 15px;
+    left: 145px;
+}
+.lgCards .lgField .bt3 {
+    top: 18px;
+    left: 265px;
+}
+.lgCards .lgField .bt4 {
+    top: -2px;
+    left: 80px;
+}
+.lgCards .lgField .bt5 {
+    top: 0;
+    left: 320px;
+}
+.lgCards .lgField .fd1, .lgCards .lgField .fd2, .lgCards .lgField .fd3 {
+    background-position: 0 -127px;
+    width: 44px;
+    height: 58px;
+}
+.lgCards .lgField .fd1 {
+    top: 82px;
+    left: 45px;
+}
+.lgCards .lgField .fd2 {
+    top: 95px;
+    left: 260px;
+}
+.lgCards .lgField .fd3 {
+    top: 78px;
+    left: 318px;
+}
+.lgCards .lgField .bw1, .lgCards .lgField .bw2, .lgCards .lgField .bw3, .lgCards .lgField .bw4, .lgCards .lgField .bw5 {
+    background-position: 0 top;
+    width: 46px;
+    height: 62px;
+}
+.lgCards .lgField .bw1 {
+    top: 135px;
+    left: 150px;
+}
+.lgCards .lgField .bw2 {
+    top: 155px;
+    left: 95px;
+}
+.lgCards .lgField .bw3 {
+    top: 160px;
+    left: 205px;
+}
+.lgCards .lgField .bw4 {
+    top: 175px;
+    left: 35px;
+}
+.lgCards .lgField .bw5 {
+    top: 182px;
+    left: 260px;
+}
+#RoundLockScore {
+    background: #d7d7d7;
+    border-radius: 5px;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    width: 92%}
+#RoundLockScore #currentLiveScores {
+    float: right;
+    position: relative;
+}
+#RoundLockScore #lScUpdate {
+    float: left;
+}
+#RoundLockScore .postScore {
+    float: left;
+    width: 100%}
+#RoundLockScore .postScLeft {
+    float: left;
+    width: 49%}
+#RoundLockScore .postScLeft>p {
+    float: left;
+    font-weight: 700;
+    width: 100%;
+    line-height: 20px;
+}
+#RoundLockScore .tmName {
+    white-space: pre;
+}
+#RoundLockScore .ScoreCardLink {
+    font-weight: 400;
+}
+#RoundLockScore .PtsSpan, .card .win {
+    font-weight: 700;
+}
+#RoundLockScore .ptsDiv {
+    float: right;
+    width: 49%}
+#RoundLockScore .ptsDiv>p {
+    float: right;
+    clear: both;
+}
+#RoundLockScore .totalPoints {
+    float: left;
+}
+#RoundLockScore .scoreTip {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #878787;
+    display: none;
+    position: absolute;
+    padding: 5px 8px 2px 10px;
+    width: 155px;
+    z-index: 10;
+}
+#RoundLockScore .scoreTxt, #RoundLockScore .scoreTxt>br {
+    float: left;
+}
+#RoundLockScore .smFbShare {
+    float: left;
+    background: url(https://cdn1.dream11.com/images/v2/sc-icons.png?ver=9.72) left top no-repeat;
+    display: inline-block;
+    padding-left: 50px;
+}
+#RoundLockScore .matchStatus {
+    float: left;
+}
+.card {
+    border: 1px solid #3759a5;
+    border-radius: 3px;
+    float: left;
+    min-height: 124px;
+    margin: 0 0 15px;
+    padding: 10px 10px 0;
+    width: 165px;
+}
+.card .fetu {
+    background: url(https://cdn1.dream11.com/images/v2/sprite-lg-cards.png?ver=9.72) 0 -166px no-repeat;
+    float: left;
+    position: absolute;
+    height: 15px;
+    width: 16px;
+    top: 0;
+    right: 10px;
+}
+.card .win {
+    float: left;
+    font-size: 1.4em;
+    line-height: 1;
+    width: 100%}
+.card .pay {
+    float: left;
+    margin: 10px 0 0;
+}
+.card .lgFillCnt {
+    float: left;
+    padding: 10px 0 0;
+    width: 100%}
+.card .lgFillCnt .lgFillTxt {
+    float: left;
+    font-size: .9em;
+}
+.card .lgFillCnt .lgFilled {
+    background: #d7d7d7;
+    float: left;
+    height: 2px;
+    margin: 5px 0 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.card .lgFillCnt .lgFilled span {
+    background: #c61d23;
+    float: left;
+    height: 2px;
+}
+.card .lgType {
+    float: right;
+}
+.card .actionBtn {
+    float: right;
+    margin: 10px 0;
+}
+.card .darkYellowBtn {
+    float: left;
+}
+.card .winDesc {
+    float: left;
+    font-size: 11px;
+    position: relative;
+    padding: 15px 0 0;
+    text-align: center;
+}
+.card .winDesc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding: 0 0 5px 23px;
+}
+.card .winDesc span:before {
+    bottom: -5px;
+    border-top: 5px solid #264462;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: none;
+    height: 0;
+    float: left;
+    left: 50%;
+    margin: 0 0 0 -3px;
+    position: absolute;
+    width: 0;
+}
+.card .winDesc span a {
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: -2px;
+}
+.card .winDesc span.sel, .card .winDesc span:hover {
+    border-bottom: 1px solid #264462;
+}
+.card .winDesc span.sel:before, .card .winDesc span:hover:before {
+    display: block;
+}
+.card .winDet {
+    border-top: 1px solid #e1e1e1;
+    display: none;
+    float: left;
+    padding: 10px 0;
+    width: 100%}
+.card .winDet p {
+    float: left;
+    margin: 0 0 10px;
+}
+.card.noLgCrd {
+    font-size: 1.3em;
+    min-height: 20px;
+    padding: 10px;
+    width: 568px;
+}
+.MultiWinnerTemplate {
+    clear: both;
+    float: left!important;
+    width: 100%}
+.mWinTbl {
+    display: table;
+    width: 99%;
+    font-size: .85em;
+    border: 1px solid #3759a5;
+    text-align: center;
+}
+.mWinTbl .mTblRow {
+    display: table-row;
+}
+.mWinTbl .mTblCell, .mWinTbl .mTblHead, .mWinTbl .tblCell {
+    display: table-cell;
+    border-right: 1px solid #3759a5;
+    width: 50%;
+    border-bottom: 1px solid #3759a5;
+}
+.mWinTbl .mTblHead {
+    padding: 3px;
+    font-weight: 700!important;
+    background: #d8e1f6;
+}
+.mWinTbl .mTblCell {
+    padding: 3px;
+}
+.mWinTbl .mTblCell:last-child, .mWinTbl .mTblHead:last-child {
+    border-right: none;
+}
+.leagueBox {
+    float: left;
+    width: 590px;
+}
+.leagueBox .noJoin {
+    background: #fae78d;
+    border: 1px solid #d7d7d7;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+    float: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 10px;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    width: 100%}
+.joinedLgCt {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.joinedLgCt .winnerScroll {
+    width: 100%;
+    height: 449px;
+    overflow: auto;
+}
+.joinedLgCt .horizontal-only {
+    height: auto;
+    max-height: 449px;
+}
+.joinLgInfo {
+    float: left!important;
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    border-bottom: 3px solid #d7d7d7;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    position: relative;
+}
+.joinLgInfo .winAmtDiv {
+    float: left!important;
+    font-size: 14px;
+    color: #c61d23;
+    width: 130px;
+    font-weight: 700!important;
+    padding: 5px 10px;
+    position: relative;
+}
+.joinLgInfo .winAmtDiv .lgOption {
+    background: 0 0;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 8px 0 0;
+    text-indent: inherit;
+    width: 100%;
+    height: auto;
+}
+.joinLgInfo .lgMemberDiv {
+    float: left!important;
+    text-align: center;
+    padding: 5px 10px 0;
+    width: 160px;
+    height: 46px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+.joinLgInfo .lgRankDiv {
+    float: left!important;
+    text-align: center;
+    padding: 0 10px;
+    width: 180px;
+    font-size: 12px;
+}
+.joinLgInfo .lgRankDiv .btnDiv {
+    height: 27px;
+    margin: 2px 0;
+}
+.joinLgInfo .lgRankDiv .btnDiv:after, .joinLgInfo .lgRankDiv .btnDiv:before {
+    content: "";
+    display: table;
+}
+.joinLgInfo .lgRankDiv .btnDiv:after {
+    clear: both;
+}
+.joinLgInfo .lgRankDiv .lgPostDiv p:first-child {
+    margin-top: -2px;
+}
+.joinLgInfo .lgRankDiv .darkerBlueBtn {
+    font-size: 12px;
+}
+.joinLgInfo .lgRankDiv.lgPostDiv {
+    padding: 5px 10px;
+}
+.joinLgInfo .rightSmDiv {
+    float: left!important;
+    text-align: left;
+    padding: 5px 10px 0;
+}
+.joinLgInfo .btmArrow {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #c61d23;
+    margin: 10px 0 0 5px;
+    bottom: -10px;
+    left: 50%;
+    display: none;
+}
+.joinLgInfo .lgPdfLink {
+    background-color: #9b9b9b;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, .6);
+    display: inline-block;
+    margin: 5px 0 0 5px;
+    font-size: 11px;
+    padding: 3px 6px;
+    line-height: 16px;
+}
+.joinLgInfo .lgPdfLink.active {
+    background: #25ba38;
+    color: #fff;
+}
+.joinLgInfo .userLgName {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 10px;
+    margin: -5px 0 5px;
+}
+.tracker-info-text {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.tracker-infotip {
+    position: absolute;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    will-change: transform;
+    z-index: 200;
+    right: 50px;
+    top: 20px;
+}
+.tracker-infotip.competition-tracker {
+    background: url(https://d13ir53smqqeyp.cloudfront.net/mobile/new-mobile-web/competitor-tracker-desktop.png) no-repeat;
+    background-size: contain;
+    height: 220px;
+    width: 178px;
+}
+.tracker-infotip.fairplay {
+    background: url(https://d13ir53smqqeyp.cloudfront.net/mobile/new-mobile-web/fairplay-image@2x.png) no-repeat;
+    background-size: contain;
+    height: 194px;
+    width: 139px;
+}
+.downIcon, .rgtArrow, .upIcon {
+    background: url(https://cdn1.dream11.com/images/v2/league-sprite.png?ver=9.72) left -134px no-repeat;
+    float: left;
+    width: 18px;
+    height: 13px;
+    margin: 12px 0 0 10px;
+    cursor: pointer;
+    text-indent: -999999px;
+    overflow: hidden;
+}
+.tracker-infotip.open {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.activeRow {
+    border-bottom: 3px solid #c61d23!important;
+}
+.activeRow .btmArrow {
+    display: block;
+}
+.pdTop2 {
+    padding-top: 2px;
+}
+.pdTop8 {
+    padding-top: 8px;
+}
+.downIcon {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.lgInviteBtn {
+    background: #355798;
+    display: inline-block;
+    font-weight: 700!important;
+    border-radius: 5px;
+    height: 26px;
+    line-height: 26px;
+}
+.emailIco, .fbIco {
+    float: left!important;
+    vertical-align: middle;
+    height: 18px;
+}
+.lgInviteBtn:hover {
+    background: #3a60a7;
+}
+.emailIco {
+    background: url(https://cdn1.dream11.com/images/v2/sc-icons.png?ver=9.72) left -22px no-repeat;
+    width: 26px;
+    margin: 4px 8px 0 7px;
+}
+.fbIco {
+    background: url(https://cdn1.dream11.com/images/v2/sc-icons.png?ver=9.72) left -45px no-repeat;
+    width: 10px;
+    margin: 4px 7px 0 15px;
+}
+.teamNameBlock, .teamNameRow {
+    width: 100%;
+    float: left!important;
+    clear: both;
+}
+.teamNameBlock {
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.winnerTeam {
+    background: #d2e9ed;
+}
+.teamNameRow {
+    border-bottom: 1px solid #d7d7d7;
+}
+.teamNameRow .rankCell {
+    float: left!important;
+    padding: 14px 5px 14px 10px;
+}
+.teamNameRow .rankCell span {
+    float: left!important;
+}
+.teamNameRow .rankCell .rankDiv {
+    font-weight: 700!important;
+    width: 56px;
+    text-align: center;
+}
+.teamNameRow .teamCell {
+    float: left!important;
+    padding: 14px 5px;
+    width: 250px;
+}
+.teamNameRow .ptsCell, .teamNameRow .winAmtCell {
+    float: left!important;
+    padding: 14px 5px 14px 10px;
+    text-align: left;
+    font-weight: 700!important;
+}
+.teamNameRow .teamCell .userTmName {
+    overflow: hidden;
+    width: 250px;
+    text-overflow: ellipsis;
+    font-weight: 700!important;
+    white-space: pre;
+}
+.teamNameRow .ptsCell {
+    width: 75px;
+}
+.teamNameRow .editTeamCell {
+    float: right!important;
+    text-align: right;
+    width: 200px;
+    padding: 8px 15px 8px 5px;
+    vertical-align: top;
+}
+.teamNameRow .editLinkBox {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px;
+}
+.teamNameRow .editLinkBox a {
+    border-bottom: 1px dashed #06d;
+    display: inline-block;
+    font-weight: 700!important;
+    padding: 2px;
+}
+.teamNameRow .editTeamSelect a {
+    display: inline-block;
+    margin-left: 10px;
+}
+.teamNameRow .editTeamSelect .tmSelectBox {
+    width: 100px;
+    padding: 4px 5px;
+    border: 1px solid #d7d7d7;
+}
+.teamNameRow .editIco {
+    background: url(https://cdn1.dream11.com/images/v2/league-sprite.png?ver=9.72) left -203px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.teamNameRow .lgAdmin {
+    color: #c61d23;
+    font-size: 11px;
+    margin-right: 8px;
+}
+.rankIco {
+    background: url(https://cdn1.dream11.com/images/v2/league-sprite.png?ver=9.72) no-repeat;
+    text-indent: -999999px;
+}
+.rankNutral {
+    background: url(https://cdn1.dream11.com/images/v2/league-sprite.png?ver=9.72) 0 -152px no-repeat;
+    text-indent: -999999px;
+    width: 20px;
+    height: 9px;
+    margin: 4px 2px 0 0;
+}
+.rankDown, .rankUp {
+    width: 20px;
+    height: 13px;
+    margin: 1px 2px 0 0;
+    text-indent: -999999px;
+}
+.rankUp {
+    background: url(https://cdn1.dream11.com/images/v2/league-sprite.png?ver=9.72) 0 -166px no-repeat;
+}
+.rankDown {
+    background: url(https://cdn1.dream11.com/images/v2/league-sprite.png?ver=9.72) 0 -184px no-repeat;
+}
+.plyrInfoTip {
+    position: absolute;
+    width: 155px;
+    background: #d2e9ed;
+    padding: 10px 10px 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #4bc5c3;
+    z-index: 10;
+    display: none;
+}
+.plyrInfoTip .plyrPoint {
+    line-height: 18px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.plyrInfoTip .plyrPoint:after, .plyrInfoTip .plyrPoint:before {
+    content: "";
+    display: table;
+}
+.boastWinBtn, .boastWinDiv .leftTxt, .fbInviteBtn, .newIcon, .viewTopDiv .topSmArrow {
+    display: inline-block;
+}
+.plyrInfoTip .plyrPoint:after {
+    clear: both;
+}
+.plyrInfoTip .plyrPoint span {
+    display: inline-block;
+    vertical-align: top;
+}
+.plyrInfoTip .plyrPoint .wd110 {
+    width: 110px;
+    word-break: break-all;
+}
+.plyrInfoTip .plNameFl {
+    border-bottom: 1px solid #264462;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 155px;
+    line-height: 20px;
+}
+.viewMoreDiv .viewUserLink, .viewTopDiv .viewTopLink {
+    height: 30px;
+    line-height: 30px;
+}
+.viewMoreDiv {
+    clear: both;
+    float: left!important;
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+}
+.viewMoreDiv .viewUserLink {
+    background: url(https://cdn1.dream11.com/images/v2/select-arrow.png?ver=9.72) left center no-repeat;
+    padding-left: 28px;
+}
+.viewTopDiv {
+    clear: both;
+    width: 556px;
+    border-bottom: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    text-align: center;
+    background: #fff;
+}
+.viewTopDiv .topSmArrow {
+    background: url(https://cdn1.dream11.com/images/league-sprite.png?ver=9.72) left -134px no-repeat;
+    width: 18px;
+    height: 13px;
+    text-indent: -999999px;
+    margin-right: 8px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+.boastWinDiv {
+    background: #e1dfde;
+    padding: 10px 0;
+    text-align: center;
+}
+.boastWinDiv .leftTxt {
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 700!important;
+    margin-right: 10px;
+}
+.boastWinBtn {
+    background: #355798;
+    color: #fff;
+    border-radius: 5px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+}
+.boastWinBtn:hover {
+    background: #3a60a7;
+}
+.boastWinBtn .boastTxt {
+    float: left!important;
+    border-left: 1px solid #284172;
+    padding: 0 12px;
+    font-weight: 700!important;
+}
+.boastWinBtn .lgFbICo {
+    background: url(https://cdn1.dream11.com/images/v2/sc-icons.png?ver=9.72) left -43px no-repeat;
+    float: left!important;
+    vertical-align: middle;
+    width: 11px;
+    height: 23px;
+    margin: 2px 10px 0 12px;
+}
+.fbInviteBtn {
+    background: url(https://cdn1.dream11.com/images/v2/fb-share-btn.jpg?ver=9.72) left top no-repeat #30497c;
+    padding: 0 20px 0 60px;
+    color: #fff;
+    font-size: 16px;
+    height: 43px;
+    line-height: 43px;
+}
+.fbInviteBtn:hover {
+    text-decoration: none;
+}
+#roundStatistic {
+    background: #e8e5e3;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    padding: 10px;
+    width: 568px;
+}
+#roundStatistic .tabTitle {
+    float: left;
+    font-size: 1.4em;
+    font-weight: 700;
+    width: 100%}
+#roundStatistic .top3Box {
+    float: left;
+    margin: 10px 0;
+    width: 100%}
+#roundStatistic .ALR, #roundStatistic .BAT, #roundStatistic .BOWL, #roundStatistic .WC {
+    float: left;
+}
+#roundStatistic .boxTitle {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) no-repeat #047eb3;
+    color: #fff;
+    float: left;
+    font-size: 1.4em;
+    font-weight: 700;
+    width: 100%}
+#roundStatistic .boxTitle>span:first-child {
+    background: url(https://cdn1.dream11.com/images/v2/pl-icons-white-round-statistics.png?ver=9.72) 2px 3px no-repeat;
+    float: left;
+    height: 30px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 32px;
+}
+#roundStatistic .boxTitle>span {
+    float: left;
+    margin: 4px 10px;
+}
+#roundStatistic .topPlayerBox {
+    background: #fff;
+    color: #a8a8a8;
+    float: left;
+    font-size: inherit;
+    margin: 3% 1%;
+    width: 31.3%}
+#roundStatistic .topPlayerBox .arrow {
+    float: left;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #047eb3;
+    margin: 0 80px 0 79px;
+    height: 0;
+    width: 0;
+}
+#roundStatistic .topPlayerBox .plName {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) -8px 0 no-repeat #047eb3;
+    color: #fff;
+    float: left;
+    width: 100%}
+#roundStatistic .topPlayerBox .plName>span:first-child {
+    background: 0 0;
+    float: left;
+    font-size: 2em;
+    font-weight: 700;
+    height: 30px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 6px;
+    text-indent: inherit;
+}
+#roundStatistic .topPlayerBox .plName>span {
+    background: 0 0;
+    float: left;
+    font-weight: 700;
+    margin: 7px 10px 5px;
+    text-indent: inherit;
+    width: auto;
+}
+#roundStatistic .topPlayerBox .flag {
+    float: left;
+    margin: 8px;
+    text-indent: inherit;
+    text-align: left;
+    width: 60px;
+}
+#roundStatistic .topPlayerBox .flag img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+#roundStatistic .topPlayerBox .credit {
+    float: right;
+    margin: 8px;
+}
+#roundStatistic .topPlayerBox .fantasyPoints {
+    border-bottom: 1px solid #d7d7d7;
+    float: left;
+    margin: 0 8px 8px;
+    padding: 10px 0;
+    width: 91%;
+    text-align: left;
+}
+#roundStatistic .topPlayerBox .fantasyPoints>span {
+    background: 0 0;
+    color: #047eb3;
+    float: right;
+    font-weight: 700;
+    font-size: 2.4em;
+    height: auto;
+    line-height: 1;
+    text-indent: inherit;
+    width: auto;
+}
+#roundStatistic .topPlayerBox .pointsPerCredit {
+    border-bottom: 1px solid #d7d7d7;
+    float: left;
+    margin: 0 8px 8px;
+    padding: 5px 0;
+    width: 91%}
+#roundStatistic .topPlayerBox .pointsPerCredit>span {
+    background: 0 0;
+    color: #047eb3;
+    float: left;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    text-indent: inherit;
+    width: 60px;
+}
+#roundStatistic .topPlayerBox .selectedBy {
+    float: left;
+    margin: 0 8px 8px;
+    padding: 0 0 5px;
+    width: 91%}
+#roundStatistic .topPlayerBox .selectedBy>span {
+    background: 0 0;
+    float: left;
+    height: auto;
+    margin: 9px 0;
+    text-indent: inherit;
+    width: auto;
+}
+#roundStatistic .topPlayerBox .selectedBy>span:last-child {
+    color: #047eb3;
+    float: right;
+    font-weight: 700;
+    font-size: 2.2em;
+    margin: 0;
+    padding: 0 8px;
+}
+#roundStatistic .BOWL .boxTitle {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) 0 -33px no-repeat #f6a110;
+}
+#roundStatistic .BOWL .boxTitle>span:first-child {
+    background: url(https://cdn1.dream11.com/images/v2/pl-icons-white-round-statistics.png?ver=9.72) 2px -55px no-repeat;
+}
+#roundStatistic .BOWL .topPlayerBox .arrow {
+    border-top: 8px solid #f6a110;
+}
+#roundStatistic .BOWL .plName {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) -8px -33px no-repeat #f6a110;
+}
+#roundStatistic .BOWL .fantasyPoints>span, #roundStatistic .BOWL .pointsPerCredit>span, #roundStatistic .BOWL .selectedBy>span:last-child {
+    color: #f6a110;
+}
+#roundStatistic .ALR .boxTitle {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) 0 -66px no-repeat #c61d24;
+}
+#roundStatistic .ALR .boxTitle>span:first-child {
+    background: url(https://cdn1.dream11.com/images/v2/pl-icons-white-round-statistics.png?ver=9.72) 2px -113px no-repeat;
+}
+#roundStatistic .ALR .topPlayerBox .arrow {
+    border-top: 8px solid #c61d24;
+}
+#roundStatistic .ALR .plName {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) -8px -66px no-repeat #c61d24;
+}
+#roundStatistic .ALR .fantasyPoints>span, #roundStatistic .ALR .pointsPerCredit>span, #roundStatistic .ALR .selectedBy>span:last-child {
+    color: #c61d24;
+}
+#roundStatistic .WC .boxTitle {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) 0 -99px no-repeat #01986b;
+}
+#roundStatistic .WC .boxTitle>span:first-child {
+    background: url(https://cdn1.dream11.com/images/v2/pl-icons-white-round-statistics.png?ver=9.72) 3px -170px no-repeat;
+}
+#roundStatistic .WC .topPlayerBox .arrow {
+    border-top: 8px solid #01986b;
+}
+#roundStatistic .WC .plName {
+    background: url(https://cdn1.dream11.com/images/v2/ico-bg-round-statistics.png?ver=9.72) -8px -99px no-repeat #01986b;
+}
+#roundStatistic .WC .fantasyPoints>span, #roundStatistic .WC .pointsPerCredit>span, #roundStatistic .WC .selectedBy>span:last-child {
+    color: #01986b;
+}
+#roundStatistic .captain {
+    background: #fff;
+    color: #a8a8a8;
+    float: left;
+    padding: 0 0 15px;
+    width: 49%;
+    height: 215px;
+    margin: 10px 0;
+}
+#roundStatistic .captain.lastDiv {
+    float: right;
+}
+#roundStatistic .captain .title {
+    background: #e7c50b;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+#roundStatistic .captain .plname {
+    color: #e7c50b;
+    float: left;
+    font-size: 1.2em;
+    margin: 10px 10px 15px 20px;
+    width: 88.6%}
+#roundStatistic .captain .plname:before {
+    content: "\2605";
+    float: left;
+    font-size: 1.3em;
+    line-height: .8;
+    margin: 0 5px 0 0;
+}
+#roundStatistic .captain .plname span {
+    float: left;
+    width: 89%}
+#roundStatistic .captain .selBy {
+    float: left;
+    line-height: 1;
+    margin: 0 0 15px;
+    text-align: center;
+    width: 50%}
+#roundStatistic .captain .selBy>span {
+    color: #e7c50b;
+    float: left;
+    font-size: 3em;
+    font-weight: 700;
+    width: 100%}
+#roundStatistic .captain .madeCapBy {
+    float: left;
+    line-height: 1;
+    margin: 0 0 15px;
+    text-align: center;
+    width: 50%}
+#roundStatistic .captain .madeCapBy>span {
+    color: #e7c50b;
+    float: left;
+    font-size: 3em;
+    font-weight: 700;
+    width: 100%}
+#roundStatistic .captain .othPopChoices {
+    border-top: 1px solid #e0e0e0;
+    float: left;
+    margin: 0 12px;
+    padding: 9px 0 5px;
+    width: 91.2%}
+#roundStatistic .captain .othPopChoicesName {
+    float: left;
+    margin: 0 0 0 12px;
+    width: 45%}
+#roundStatistic .captain .othPopChoicesName:last-child {
+    float: right;
+    margin: 0 12px 0 0;
+}
+#roundStatistic .captain .othPopChoicesName>span:first-child {
+    color: #e7c50b;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0 5px 0 0;
+    width: auto;
+}
+#roundStatistic .captain.lastDiv .madeCapBy>span, #roundStatistic .captain.lastDiv .othPopChoicesName>span:first-child, #roundStatistic .captain.lastDiv .plname, #roundStatistic .captain.lastDiv .selBy>span {
+    color: #92cad4;
+}
+#roundStatistic .captain .othPopChoicesName>span>sup {
+    font-weigth: normal;
+}
+#roundStatistic .captain .othPopChoicesName>span {
+    float: left;
+    margin: 5px 0 0;
+    width: 73%}
+#roundStatistic .captain.lastDiv .title {
+    background: #92cad4;
+}
+.newIcon {
+    background: url(https://cdn1.dream11.com/images/v2/new-icon.gif?ver=9.72) center no-repeat;
+    height: 22px;
+    margin-left: 5px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 25px;
+}
+.leagues-tutorial #tourBar .slGamesTab, .leagues-tutorial header {
+    position: relative;
+    z-index: 0;
+}
+.leagues-tutorial #tourBar .rndContainer .rndFilter.sel, .leagues-tutorial #tourBar .rndContainer .rndSlider.sel {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .45);
+    z-index: 2;
+    position: relative;
+}
+.leagues-tutorial #tourBar .rndContainer .rndFilter {
+    position: relative;
+}
+.leagues-tutorial #tourBar .rndContainer .rndFilter .customSelect .label {
+    background-color: #fff;
+}
+.leagues-tutorial #tourBar .rndContainer .rndFilter .customSelect ul {
+    left: -11px;
+    top: -22px;
+    width: 300px;
+}
+.leagues-tutorial #tourBar .rndContainer .rndSlider.sel {
+    border-radius: 4px;
+    top: 0;
+}
+#roundStatistic .topPlayerBox.flagsBox:after, .leagues-tutorial #tourBar .rndContainer .rndSlider.sel .nextAr {
+    border: none;
+}
+.mWinPopup {
+    width: 500px;
+}
+.mWinPopup .mWinNote {
+    padding: 0 15px 10px;
+    font-size: 12px;
+    color: #878787;
+}
+.mWinPopup .mWinNote:after, .mWinPopup .mWinNote:before {
+    content: "";
+    display: table;
+}
+.mWinPopup .mWinNote:after {
+    clear: both;
+}
+.mWinPopup .mWinTbl {
+    display: table;
+    width: 100%;
+    background: #f6f1ed;
+    font-size: 14px;
+}
+.mWinPopup .mWinTbl .mTblRow {
+    display: table-row;
+}
+.mWinPopup .mWinTbl .mTblCell, .mWinPopup .mWinTbl .mTblHead, .mWinPopup .mWinTbl .tblCell {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #d7d7d7;
+    width: 50%}
+.mWinPopup .mWinTbl .mTblHead {
+    padding: 10px 20px;
+    font-weight: 700!important;
+}
+.mWinPopup .mWinTbl .mTblCell {
+    padding: 10px 20px;
+}
+.mWinPopup .winDetails {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 370px;
+}
+.teamPreferPopup {
+    width: 640px;
+}
+.teamPreferPopup .popupTitle {
+    background: #c51d23;
+}
+.teamPreferPopup .popupInner {
+    padding: 20px 30px;
+    width: 580px;
+}
+.teamPreferPopup .topTxt {
+    margin: 0 15px 15px;
+    text-align: center;
+    width: 92%}
+.teamPreferPopup .slTeamRow {
+    float: left;
+    clear: both;
+    max-height: 350px;
+    overflow: auto;
+    width: 100%}
+.teamPreferPopup .slTeamRow .active {
+    border: 1px solid #25ba38;
+}
+.teamPreferPopup .slTeamRow li {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    float: left;
+    line-height: 17px;
+    margin: 0 0 10px 7px;
+    padding: 10px;
+    width: 111px;
+}
+.teamPreferPopup .slTeamRow li .teamFlag {
+    float: left;
+    margin-right: 8px;
+    width: 29px;
+}
+.teamPreferPopup .slTeamRow li .teamFlag img {
+    margin: 0;
+    display: block;
+}
+.teamPreferPopup .slTeamBottom {
+    clear: both;
+    float: left;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.teamPreferPopup .slTeamBottom .blueBtn {
+    background: #3759a5;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    font-family: arial;
+}
+.teamPreferPopup .slTeamBottom .btmLink {
+    margin: 10px 0 0 20px;
+    display: inline-block;
+    color: #3759a5;
+}
+.depositBonusPromo {
+    width: 520px;
+    overflow: hidden;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+.depositBonusPromo .offerImgBox {
+    background: #20c1e0;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.depositBonusPromo .offerImgBox .popupClose {
+    top: 10%;
+    right: 3%;
+    color: #fff;
+}
+.depositBonusPromo .offerImgBox .offerImg {
+    background: url(https://cdn1.dream11.com/images/v2/deposit-offer-banner.png?ver=9.72) center top no-repeat;
+    height: 180px;
+    width: 100%}
+.depositBonusPromo .innerContent {
+    clear: both;
+    float: left;
+    padding: 6% 5%;
+    width: 90%}
+.depositBonusPromo .innerContent p {
+    color: #9b9b9b;
+    font-size: .917em;
+    margin-bottom: 1.5em;
+}
+.depositBonusPromo .innerContent p span {
+    color: #000;
+    font-size: #1.167em;
+    font-weight: 700;
+}
+.depositBonusPromo .innerContent .btnRow {
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+.depositBonusPromo .innerContent .getBtn {
+    background: #f5af23;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+    font-size: 13px;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 20px;
+    text-align: center;
+}
+.privateLgMain {
+    font-size: 12px;
+    padding: 15px 20px;
+    width: 540px;
+}
+.privateLgMain .lgLeftCol {
+    float: left;
+    width: 250px;
+}
+.privateLgMain .lgRgtBox {
+    float: right;
+    width: 248px;
+}
+.privateLgMain .lgRightCol {
+    float: left;
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    padding: 5px 10px 10px;
+    min-height: 405px;
+    width: 226px;
+}
+.privateLgMain .helpIcon {
+    margin-left: 10px;
+    text-align: center;
+}
+.privateLgMain .prLgOptions {
+    float: left;
+    width: 100%}
+.privateLgMain .txtField {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.privateLgMain .txtField .inTxt {
+    display: inline-block;
+    color: 4a4a4a;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.accountBalance .addBox .txtField select, .privateLgMain .txtField input {
+    background-color: #fff;
+    border: 1px solid #e8e8e8!important;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 12px;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    width: 100%;
+    z-index: 1;
+}
+.privateLgMain .txtField input:focus, .privateLgMain .txtField select:focus, .privateLgMain .txtField textarea:focus {
+    border: 1px solid #4a4a4a!important;
+    outline: 0;
+}
+.privateLgMain .chkBoxRow {
+    clear: both;
+    float: left;
+    padding: 5px 0;
+    position: relative;
+    width: 100%}
+.privateLgMain .chkBoxRow .chkbox {
+    border: 1px solid #ccc;
+    border-radius: 75%;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0 8px 0 0;
+}
+.privateLgMain .chkBoxRow .chkbox.checked, .privateLgMain .chkBoxRow .chkbox.sel {
+    background: url(https://cdn1.dream11.com/images/mobile/chk-mark-white@2x.png?ver=9.72) center no-repeat #25ba38;
+    border: 1px solid #25ba38;
+    background-size: 60%}
+.privateLgMain .chkBoxRow p {
+    float: left;
+    line-height: 21px;
+}
+.privateLgMain .chkBoxRow .toolTip {
+    top: -86px;
+    left: 46px;
+    z-index: 100;
+}
+.privateLgMain .setWinners {
+    float: left;
+    margin-top: 5px;
+    width: 100%}
+.privateLgMain .setWinners .txtField {
+    width: 72%}
+.privateLgMain .setWinners .setBtn {
+    border: none;
+    border-radius: 4px;
+    background: #f5a623;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 13px;
+    height: 34px;
+    line-height: 34px;
+    font-family: arial;
+    text-align: center;
+    float: right;
+    margin-top: 17px;
+    width: 24%}
+.privateLgMain .setWinners .disBtn {
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    cursor: default;
+}
+.privateLgMain .winAmtTable {
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 335px;
+}
+.privateLgMain .winAmtTable .thRow {
+    background: #e8e8e8;
+    float: left;
+    width: 100%}
+.privateLgMain .winAmtTable .thRow p {
+    font-size: 10px;
+    float: left;
+    padding: 5px 0 5px 5%}
+.privateLgMain .winAmtTable .thRow p:nth-child(1) {
+    width: 20%}
+.privateLgMain .winAmtTable .thRow p:nth-child(2) {
+    width: 28%}
+.privateLgMain .winAmtTable .thRow p:nth-child(3) {
+    width: 35%}
+.privateLgMain .winAmtTable .tdRow {
+    float: left;
+    width: 100%}
+.privateLgMain .winAmtTable .tdRow .cell {
+    float: left;
+    padding: 5px 0 0 5%;
+    line-height: 34px;
+    width: 26%}
+.privateLgMain .winAmtTable .tdRow .cell:nth-child(1) {
+    width: 20%}
+.privateLgMain .winAmtTable .tdRow .cell:nth-child(2) {
+    width: 28%}
+.privateLgMain .winAmtTable .tdRow .cell:nth-child(3) {
+    width: 35%;
+    color: #e13939;
+}
+.privateLgMain .winAmtTable .tdRow .txtField {
+    margin: 0;
+}
+.privateLgMain .entryFeeBox {
+    background: #e8e8e8;
+    float: left;
+    margin: 10px 0;
+    padding: 5px 4%;
+    text-align: center;
+    width: 92%}
+.privateLgMain .entryFeeBox .entryFee {
+    color: #e13939;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10%}
+.privateLgMain .btmGrText {
+    clear: both;
+    color: #7a7a7a;
+    float: left;
+    font-size: 11px;
+    text-align: left;
+    width: 100%}
+.privateLgMain .btmGrText li {
+    margin: 5px 0 5px 10px;
+    list-style: disc;
+}
+.privateLgMain .btmGrText li:last-child {
+    margin-bottom: 0;
+}
+.privateLgMain .btnBtnDiv {
+    clear: both;
+    float: left;
+    margin-top: 15px;
+    width: 100%}
+.privateLgMain .btnBtnDiv .newBtn {
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    font-family: arial;
+    text-align: center;
+}
+.privateLgMain .btnBtnDiv .blueBtn {
+    background: #3759a5;
+    color: #fff;
+    float: left;
+}
+.privateLgMain .btnBtnDiv .grayBtn {
+    background: #9b9b9b;
+    color: #fff;
+    float: right;
+}
+.privateLgMain .txtField input.error {
+    border: 1px solid #e13939!important;
+}
+.privateLgMain .txtField label.error {
+    background-image: none;
+    background-color: #e13939;
+    border-radius: 4px;
+    color: #fff;
+    padding: 2px 5px;
+    margin: 0;
+    font-size: 9px;
+    line-height: 10px;
+}
+.topRoundMsg {
+    background: #f7f3ca;
+    border: 1px solid #eae4ab;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.lgCards .lgField .addTeamBtn a {
+    border: 1px solid #3759a5;
+    border-radius: 5px;
+    color: #3759a5;
+    background-color: #fff;
+    float: right;
+    padding: 5px 10px;
+}
+.lgCards .lgField a.cloneTeam {
+    border: 1px solid #3759a5;
+    border-radius: 5px;
+    color: #3759a5;
+    background-color: #fff;
+    float: right;
+    padding: 4px 10px;
+}
+.selectTeam-dropdown {
+    color: #4a4a4a;
+    padding: 11px 0 11px 10px;
+    box-sizing: border-box;
+}
+.selectTeam-dropdown select {
+    border: 1px solid #c51d23;
+    border-radius: 5px;
+    color: #c51d23;
+    padding: 5px 30px 5px 10px;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    outline: 0;
+    margin: 0 0 0 5px;
+}
+.selectTeam-dropdown:after {
+    border: 1px solid #c51d23;
+    border-left: none;
+    border-bottom: none;
+    content: '';
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    left: -25px;
+    top: -3px;
+    position: relative;
+}
+.selectTeam-dropdown select::-ms-expand {
+    display: none;
+}
+.teamsCol-2 {
+    float: left;
+}
+.teamsCol-1 {
+    border-right: 1px solid #ddd;
+    padding: 15px 0 15px 10px;
+    float: left;
+}
+.teamsCol-3 {
+    float: right;
+    padding: 11px 10px;
+}
+.blueBtnEditTeam {
+    cursor: pointer;
+    text-decoration: none!important;
+    overflow: visible;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 5px 10px;
+    height: 18px;
+    float: right;
+    margin: 0 10px 0 0;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    color: #fff;
+    background: #3759a5;
+}

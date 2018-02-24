@@ -1,0 +1,89 @@
+a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.tab .nav-tabs {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.tab .nav-tabs li a {
+    padding: 10px 20px;
+    margin-right: 5px;
+    background: #3c8dbc;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #3c8dbc;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    transition: all 0.4s ease-in 0s;
+}
+
+.tab .nav-tabs li a:hover {
+    color: #3c8dbc;
+    background: #fff;
+    border: 2px solid #3c8dbc;
+}
+
+.tab .nav-tabs li.active a {
+    color: #092c4f;
+    border: 2px solid #092c4f;
+}
+
+.tab .nav-tabs li a:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+    transition: all 0.4s ease-in 0.1s;
+}
+
+.tab .nav-tabs li a:hover:before,
+.tab .nav-tabs li.active a:before {
+    opacity: 1;
+    transform: scale(2);
+}
+
+.tab .tab-content {
+    padding: 15px 20px;
+    /*   background: #3c8dbc;*/
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1px;
+    border: 2px solid #092c4f;
+    border-radius: 25px;
+    /*  outline: 5px solid #092c4f;*/
+    outline-offset: 3px;
+}
+
+.tab .tab-content h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 479px) {
+    .tab .nav-tabs li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .tab .nav-tabs li a:hover:before,
+    .tab .nav-tabs li.active a:before {
+        transform: scale(10);
+    }
+}

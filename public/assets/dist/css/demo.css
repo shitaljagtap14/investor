@@ -1,0 +1,229 @@
+
+@import url(https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700);
+@import url(http://fontawesome.io/assets/font-awesome/css/font-awesome.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.packageContainer {
+    text-align: center;
+}
+
+.package {
+    width: 935px;
+    margin: 50px auto 20px;
+    border: 1px solid #CCC;
+    display: inline-block;
+}
+
+.fa {
+    color: #b9b9b9;
+    font-size: 18px;
+    font-style: normal;
+    margin-right: 5px;
+    width: 25px;
+    float: left;
+}
+
+.packageLeftBar {
+    width: 210px;
+    background: #fbfbfb;
+    float: left;
+}
+
+.packageLeftBar li, .packageDetails li {
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px dotted #CCC;
+    text-align: left;
+}
+
+.packageLeftBar li:first-child, .packageDetails li:first-child {
+    text-align: center;
+    padding: 30px;
+    border: none;
+}
+
+.packageLeftBar li:last-child, .packageDetails li:last-child {
+    padding: 30px 0;
+    background: #FFF;
+}
+
+.packageDetails {
+    width: 144px;
+    float: left;
+    position: relative;
+    border-left: 1px dotted #CCC;
+}
+
+.packageDetails:hover {
+    background: #FAFAFA;
+}
+
+.packageDetails .fa-times {
+    color: #d31c06;
+}
+
+.packageDetails .fa-check {
+    color: #7e9513;
+}
+
+.packageDetails li {
+    text-align: center;
+}
+
+.packageDetails li .fa {
+    text-align: center;
+    float: none;
+    line-height: 0;
+}
+
+.packageDetails li:first-child {
+    padding: 10px 10px;
+}
+
+.packageLeftBar li:first-child {
+    padding: 0px 0px 21px;
+}
+
+.packageDetails li:first-child span {
+    padding: 10px 0;
+    left: 50%;
+    margin-left: -65px;
+    width: 130px;
+    display: block;
+    background-color: #d9a702;
+    position: absolute;
+    top: -5px;
+    box-shadow: 3px 3px 0px #b68c03;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.packageDetails.yellow li:first-child {
+    background-color: #EBC137;
+    color: #FFF;
+    line-height: 16px;
+}
+
+.signUp {
+    padding: 8px 15px;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.packageDetails li:nth-child(2) {
+    padding: 3px 10px 25px;
+    border-top: 0;
+    color: #FFF;
+    font-size: 21px;
+}
+
+.packageDetails.yellow li:nth-child(2) {
+    background: #EBC137;
+}
+
+.packageDetails.yellow .signUp {
+    background-color: #d9a702;
+    box-shadow: 3px 3px 0px #b68c03;
+}
+
+.packageDetails.orange li:first-child {
+    background-color: #e69844;
+    color: #FFF;
+    line-height: 16px;
+}
+
+.packageDetails.orange li:first-child span {
+    background-color: #cf7a1c;
+    box-shadow: 3px 3px 0px #b36004;
+}
+
+.packageDetails.red  {
+    background:white;
+    border: 1px solid #3759a5;
+}
+
+.packageDetails.orange .signUp {
+    background-color: #cf7a1c;
+    box-shadow: 3px 3px 0px #b36004;
+}
+/*.rectangle li:first-child span {
+    Background-color:red;
+}*/
+
+
+
+
+
+#a1{
+    background-color:#ffbeeb;
+}
+#a2{
+    background-color: #befffc;
+}
+#a3{
+    background-color: #bec6ff;
+}
+#a4{
+    background-color: #ffbebe;
+}
+
+#a5{
+    background-color: #fffcbe;
+}
+
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+/*Custom classes by vachanesh*/
+.widget-user-header-sm{
+    height: auto !important;
+}
+a.winner-list-box{
+    text-decoration: none;
+}
+a.winner-list-box:hover{
+    color: inherit;
+}
+.box-footer-sm{
+    padding-top: 0px !important;
+}
+.winner-list-box.status-pending{
+    cursor: default;
+}
+.winner-list-box.status-announced{
+    cursor: pointer;
+}
+.description-text-winner{
+    text-transform: inherit !important;
+}
+.winner-status-label{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+.winner-status-label.winner-status-pending{
+
+}
+.winner-status-label.winner-status-announced{
+
+}

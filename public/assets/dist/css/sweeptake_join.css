@@ -1,0 +1,12 @@
+#rectangle {
+    width: 200px;
+    height: 100px;
+    Background-color:red;
+}
+
+
+#square{
+    width: 100px;
+    height: 100px;
+    Background-color: #fff;/* Your Color */
+}
